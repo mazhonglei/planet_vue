@@ -1,0 +1,493 @@
+$mainColor: #411E60;
+$mainftColor: #6a89a1;
+#classDetails {
+  .new {
+    height: 100%;
+  }
+
+  .details {
+    width: 100%;
+    padding: 1.3rem 15px 0 15px;
+  }
+
+  .details_common {
+    width: 100%;
+    border-bottom: solid 1px rgba(204, 204, 204, 0.4);
+    position: relative;
+    padding-bottom: 0.5rem;
+
+    .detailsBox {
+      margin-top: .3rem;
+    }
+  }
+
+  .details_common .img {
+    float: left;
+    width: 0.68rem;
+    height: 0.68rem;
+    border-radius: 50%;
+    margin-right: 0.25rem;
+    overflow: hidden;
+  }
+
+  .details_common .img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .details_common .commonContent {
+    float: left;
+    width: 84.5%;
+    word-break: break-all;
+  }
+
+  .details_common .commonContent .img1 {
+    position: absolute;
+    right: 0.4rem;
+    width: 0.2rem;
+    height: 0.15rem;
+  }
+
+  .details_common .commonContent .name {
+    color: $mainftColor;
+    font-size: 0.28rem;
+  }
+
+  .details_common .commonContent .time {
+    color: #B0B4B7;
+    font-size: 0.2rem;
+    margin-top: 0.05rem;
+  }
+
+  .details_common .speak {
+    color: #000000;
+    font-size: 0.3rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    word-break: break-all;
+  }
+
+  .imgs {
+    width: 100%;
+    margin-top: 0.2rem;
+  }
+
+  .imgs div .my-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .imgs div .my-gallery figure { //正常6/7/8 w:375px;
+    margin-bottom: .1rem;
+    width: 2.23rem;
+    height: 2.23rem;
+    overflow: hidden;
+  }
+
+  @media (max-device-width: 320px) and (min-device-width: 300px) { //兼容5s
+    .imgs div .my-gallery figure {
+      width: 1.85rem;
+      height: 1.85rem;
+    }
+  }
+  @media (max-device-width: 420px) and (min-device-width: 400px) { //兼容6/7/8plus
+    .imgs div .my-gallery figure {
+      margin-bottom: .12rem;
+      width: 2.46rem;
+      height: 2.46rem;
+    }
+
+    .imgs div .my-gallery figure:nth-of-type(2),
+    .imgs div .my-gallery figure:nth-of-type(5),
+    .imgs div .my-gallery figure:nth-of-type(8) { //第2个,第5个,第8个图片单独样式
+      margin: 0 .12rem .1rem .12rem;
+    }
+  }
+
+  .imgs div .my-gallery figure:nth-of-type(2), .imgs div .my-gallery figure:nth-of-type(5), .imgs div .my-gallery figure:nth-of-type(8) { //第2个,第5个,第8个图片单独样式
+    margin: 0 5px 5px 5px;
+  }
+
+  .imgs > div img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+    object-fit: cover;
+  }
+
+  .pswp__button--share, .pswp__button--fs {
+    display: none;
+  }
+
+  .details_common .commonImg {
+    width: 100%;
+  }
+
+  .details_common .answer {
+    width: 100%;
+    //background: #F8F8F8;
+    overflow: hidden;
+    position: relative;
+    margin-top: 0.2rem;
+
+    div {
+      width: 0.4rem;
+      height: 0.4rem;
+      position: absolute;
+      left: .1rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .details_common .answer img {
+    float: left;
+    width: 100%;
+    height: 100%;
+  }
+
+  .details_common .answer ul {
+    float: left;
+    width: 90%;
+    word-break: break-all;
+    padding: .2rem;
+    margin-left: 0.5rem;
+
+  }
+
+  .details_common .answer ul li {
+    float: left;
+    font-size: 0.28rem;
+    color: $mainftColor;
+    padding-top: 3px;
+    line-height: .4rem;
+  }
+
+  .details_common .details_zan {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 0.1rem;
+  }
+
+  .details_common .details_zan .details_btn {
+    width: 1.8rem;
+    height: 0.7rem;
+    border: solid 1px #B0B4B7;
+    line-height: 0.7rem;
+    border-radius: 0.4rem;
+    float: left;
+    position: relative;
+  }
+
+
+  .details_common .details_btn span {
+    font-size: 0.28rem;
+    color: #B0B4B7;
+    float: left;
+    position: absolute;
+    left: 44px;
+  }
+
+  .details_common .details_btn.zan img {
+    display: block;
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-top: 0.14rem;
+    margin-left: 0.4rem;
+    margin-right: 1rem;
+  }
+
+  .details_common .details_btn img {
+    display: block;
+    float: left;
+    width: 0.36rem;
+    height: 0.36rem;
+    margin-top: 0.14rem;
+    margin-left: 0.4rem;
+    margin-right: 0.05rem;
+  }
+
+  .details_com {
+    width: 100%;
+    line-height: 0.8rem;
+    font-size: 0.28rem;
+    color: #6e6e6e;
+
+  }
+
+  .com {
+    padding-bottom: 1.2rem;
+  }
+
+  .comContent {
+    width: 100%;
+    padding-top: 0.5rem;
+    border-top: solid 1px rgba(204, 204, 204, 0.4);
+    margin-top: 0.2rem;
+
+    .comContentImg {
+      float: left;
+      width: 0.65rem;
+      height: 0.65rem;
+      overflow: hidden;
+      border-radius: 50%;
+      margin-right: 0.25rem;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .comRight {
+      float: left;
+      width: 84.5%;
+
+      .com_name {
+        width: 100%;
+        font-size: 0.28rem;
+        color: $mainftColor;
+
+        span {
+          float: left;
+        }
+
+        img {
+          float: right;
+          width: 0.36rem;
+          height: 0.36rem;
+          margin-top: 0.05rem;
+        }
+      }
+
+      .com_time {
+        width: 100%;
+        font-size: 0.24rem;
+        color: #B0B4B7;
+      }
+
+      .com_speak {
+        margin-top: 0.2rem;
+        width: 100%;
+        line-height: 0.4rem;
+        font-size: 0.3rem;
+        color: #000;
+        word-break: break-all;
+      }
+
+      .preview {
+        width: 100%;
+        margin-top: 0.2rem;
+      }
+
+      .preview div .my-gallery {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .preview div .my-gallery figure {
+        margin: 3px 3px 3px 0;
+        width: 18%;
+        height: 100%;
+      }
+
+      .preview > div img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        border-radius: 0.1rem;
+        object-fit: cover;
+      }
+
+      .pswp__button--share, .pswp__button--fs {
+        display: none;
+      }
+    }
+
+  }
+
+  .details_bottom {
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #F1F0F4;
+
+    div {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      width: 90%;
+      padding: 0.15rem .15rem .15rem .3rem;
+      border: solid 1px #DEDFE1;
+      border-radius: 0.4rem;
+      font-size: .28rem;
+      color: #888;
+    }
+
+    img {
+      position: absolute;
+      right: 0.2rem;
+      width: 0.6rem;
+      height: 0.6rem;
+      top: 50%;
+      transform: translateY(-50%);
+
+    }
+  }
+
+  .classDetailsMask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+
+  }
+
+  .classDetailsContent {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background: #F1F0F4;
+    width: 100%;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    z-index: 1200;
+
+  }
+
+  .classDetailsContent textarea::-webkit-input-placeholder {
+    color: #B7B7B7;
+  }
+
+  .classDetailsContent textarea {
+    display: block;
+    padding: 0.2rem;
+    font-size: 0.3rem;
+    border: solid 1px #DEDFE1;
+    outline: none;
+    border-radius: 0.1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0.2rem;
+    resize: none;
+    width: 95%;
+    height: 2.2rem;
+  }
+
+  .classDetailsContent .common3 {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .classDetailsContent .common3 img {
+    float: left;
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+    margin-right: 0.4rem;
+  }
+
+  .classDetailsContent .common3 img:first-child {
+    display: block;
+    width: 0.42rem;
+    height: 0.42rem;
+    margin-top: 0.05rem;
+
+  }
+
+  .classDetailsContent .common3 button {
+    float: right;
+    background: $mainColor;
+    color: #ffffff;
+    font-size: 0.25rem;
+    width: 1.1rem;
+    height: 0.55rem;
+    border-radius: 0.1rem;
+    border: none;
+    outline: none;
+
+  }
+
+  .classDetailsContent .common3 p {
+    float: right;
+    font-size: 0.25rem;
+    color: #AEAEAE;
+    margin-right: 0.2rem;
+    margin-top: 0.1rem;
+  }
+
+  .shareMask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 998;
+  }
+
+  .maskSubstance {
+    width: 100%;
+    height: 4.2rem;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    border-radius: .2rem .2rem 0 0;
+  }
+
+  .maskSubstance .substanceShare {
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    border-bottom: solid 1px #DEDFE1;
+    font-size: 0.3rem;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .maskSubstance .substanceShare i {
+    float: right;
+    margin-right: 0.3rem;
+    font-size: 0.32rem;
+    color: #DEDFE1;
+  }
+
+  .maskSubstance .share {
+    width: 4rem;
+    height: 100%;
+    /*border: solid 1px red;*/
+    margin: auto;
+  }
+
+  .maskSubstance .share .left, .right {
+    width: 50%;
+    height: 100%;
+    /*background: gray;*/
+    text-align: center;
+    font-size: 0.3rem;
+  }
+
+  .maskSubstance .share .left img, .maskSubstance .share .right img {
+    margin-top: 0.3rem;
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 0.55rem;
+    margin-bottom: 0.2rem;
+  }
+
+}

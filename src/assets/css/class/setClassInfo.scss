@@ -1,0 +1,184 @@
+$mainColor: #411E60;
+#setClassInfo {
+  .new {
+    height: 100%;
+    overflow: hidden;
+
+    .wrapperBox {
+      height: unset;
+    }
+  }
+
+  .selectSort .selectActive {
+    background-color: $mainColor;
+    color: #fff;
+    border: $mainColor;
+  }
+
+
+  .clause {
+    font-size: .3rem;
+    padding: 0 0 .4rem .4rem;
+  }
+
+  .clause img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: text-bottom;
+  }
+
+  .clause span {
+    color: #7A919E;
+  }
+
+  .createClass-title {
+    position: absolute;
+    left: 50%;
+    top: -11%;
+    transform: translateX(-50%);
+  }
+
+  .createClass-title .createMoney {
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: .32rem;
+    transform: translateX(-50%);
+    font-size: .24rem;
+    color: $mainColor;
+  }
+
+  .classImg-box {
+    width: 2.8rem;
+    height: 2.8rem;
+    overflow: hidden;
+    position: relative;
+  }
+
+  /*星球名称*/
+  .starName {
+    width: 2.8rem;
+    margin: 0 auto;
+    z-index: 1;
+    background-color: #fff;
+    border-radius: .1rem;
+    overflow: hidden;
+  }
+
+  .starName img {
+    display: block;
+    width: 100%;
+    height: 2.9rem;
+    object-fit: cover;
+  }
+
+  .starName input {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: .33rem;
+    border-radius: 0 0 .1rem .1rem;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #B0B4B7;
+
+  }
+
+  .select {
+    width: 100%;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    color: #000000;
+    font-size: 0.28rem;
+    margin: 10px auto;
+  }
+
+  .selectSort {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 .2rem;
+
+  }
+
+  .selectSort li {
+    width: 21%;
+    height: 0.6rem;
+    border-radius: 0.3rem;
+    border: solid 0.01rem #696969;
+    outline: none;
+    line-height: 0.6rem;
+    color: #696969;
+    font-size: 0.25rem;
+    margin-bottom: 10px;
+  }
+
+  .introduce {
+    margin: 0 auto;
+  }
+
+  .introduce textarea {
+    width: 90%;
+    display: block;
+    padding: 0.2rem;
+    border: solid 0.01rem #DBDCDE;
+    font-size: 0.32rem;
+    outline: none;
+    resize: none;
+    border-radius: 4px;
+    margin: .4rem auto;
+  }
+
+  .setClass-box {
+    padding-top: 1.8rem;
+  }
+
+  .camera-icon {
+    position: absolute;
+    right: .14rem;
+    top: .14rem;
+    width: .48rem;
+    height: .48rem;
+    background-color: rgba(0, 0, 0, .1);
+    border-radius: 50%;
+    z-index: 10;
+  }
+
+  .camera-icon::after {
+    display: block;
+    width: 64%;
+    height: 64%;
+    content: '';
+    background: url("../../assets/img/camera.png") center center;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .classToken {
+    padding: 0.2rem 0.4rem 0;
+
+    p {
+      height: 0.8rem;
+      line-height: 0.8rem;
+      font-size: 0.28rem;
+      color: #696969;
+    }
+
+    input {
+      border: 1px solid #DBDCDE;
+      border-radius: 5px;
+      padding: .11rem;
+      width: 60%;
+
+    }
+  }
+
+}

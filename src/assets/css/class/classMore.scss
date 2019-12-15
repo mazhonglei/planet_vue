@@ -1,0 +1,446 @@
+$mainColor: #411E60;
+#classMore{
+  .mint-switch-input:checked + .mint-switch-core{
+    border-color: $mainColor;
+    background-color: $mainColor;
+  }
+  .new{
+    height: 100%;
+  }
+ .moreContent{
+   padding-top: 1.5rem;
+   //border: solid 1px red;
+
+ }
+  .contents{
+    height: 6rem;
+    width: 82% ;
+    margin: auto;
+    position: relative;
+    z-index: 10;
+    //border: solid 1px red;
+    border-radius: 50%;
+  }
+  .contents .img1{
+    width: 100%;
+  }
+  .contents .image1{
+    width: 0.9rem ;
+    height: 0.9rem;
+    border-radius: 50%;
+    margin: auto;
+
+  }
+   .head{
+    display: block;
+    width: 0.65rem;
+    height: 0.4rem;
+    margin: auto;
+
+  }
+  .contents .name{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 0.25rem;
+    color: #000;
+  }
+  .contents .image1 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .img2{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 22%;
+    padding-right: 22%;
+    position: absolute;
+    top: 0.5rem;
+
+
+  }
+  .contents .image2{
+    width: 0.9rem ;
+    height: 0.9rem;
+    border-radius: 50%;
+    float: left;
+
+
+  }
+  .contents .image2 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .image3{
+    width: 0.9rem ;
+    height: 0.9rem;
+    border-radius: 50%;
+    float: right;
+
+  }
+  .contents .image3 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .img4{
+    width: 100%;
+    overflow: hidden;
+    padding-left: 8%;
+    padding-right: 8%;
+    position: absolute;
+    top: 1.4rem;
+
+  }
+  .contents .image4{
+    width: 0.9rem ;
+    height: 0.9rem;
+    float: left;
+    border-radius: 50%;
+  }
+  .contents .image4 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .image5{
+    width: 0.9rem ;
+    height: 0.9rem;
+    border-radius: 50%;
+    float: right;
+
+  }
+  .contents .image5 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .img6{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 2.6rem;
+
+  }
+  .contents .image6{
+    width: 0.9rem ;
+    height: 0.9rem;
+    float: left;
+    border-radius: 50%;
+
+
+  }
+  .contents .image6 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .image7{
+    width: 0.9rem ;
+    height: 0.9rem;
+    float: right;
+    border-radius: 50%;
+
+  }
+  .contents .image7 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .img8{
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 3.7rem;
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+  .contents .image8{
+    width: 0.9rem ;
+    height: 0.9rem;
+    float: left;
+    border-radius: 50%;
+
+  }
+  .contents .image8 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .image9{
+    width: 0.9rem ;
+    height: 0.9rem;
+    float: right;
+    border-radius: 50%;
+
+  }
+  .contents .image9 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .img10{
+    width: 100%;
+    height: 1.2rem;
+    position: absolute;
+    top: 4.5rem;
+    //border: solid 1px red;
+    padding-left: 22%;
+    padding-right: 22%;
+  }
+  .contents .image10{
+    width: 0.9rem ;
+    height: 0.9rem;
+    float: left;
+    border-radius: 50%;
+
+}
+  .contents .image10 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .image11{
+    width: 0.9rem ;
+    height: 0.9rem;
+    float: right;
+    border-radius: 50%;
+
+  }
+  .contents .image11 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+.contents .img12{
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  bottom: 0.2rem;
+  //border: solid 1px red;
+}
+  .contents .image12{
+    width: 0.9rem ;
+    height: 0.9rem;
+    border-radius: 50%;
+    margin: auto;
+  }
+  .contents .image12 .headImage{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .contents .answer{
+    width: 100%;
+    height: 0.3rem;
+    position: absolute;
+    left: 0;
+    top:2.8rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.3rem;
+    color: #000000;
+    font-weight: bold;
+  }
+  .contents .id{
+    width: 100%;
+    height: 0.3rem;
+    position: absolute;
+    left: 0;
+    top:3.5rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.24rem;
+    color: #6e6e6e;
+  }
+  .moreSpeak{
+    width: 100%;
+    height: 3rem;
+  }
+  .moreSpeak .time{
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #B7B7B7;
+    margin-top: 0.2rem;
+  }
+  .moreSpeak .join{
+    width: 100%;
+    text-align: center;
+    font-size: 0.24rem;
+    color: #B7B7B7;
+    margin-top: 0.1rem;
+  }
+  .moreSpeak .share{
+    width: 2.4rem;
+    height: 0.7rem;
+    border: solid 1px #4CA994;
+    text-align: right;
+    line-height: 0.7rem;
+    font-size: 0.3rem;
+    color: #4CA994;
+    border-radius: 0.5rem;
+    padding-right: 0.3rem;
+    position: relative;
+    margin: 0.6rem auto;
+
+
+  }
+
+  .moreSpeak .share img{
+    position: absolute;
+    left: 0.25rem;
+    top: 0.15rem;
+    width: 0.35rem;
+    height: 0.35rem;
+
+  }
+  .message{
+    background: #F5F6F8;
+  }
+  .message .list1{
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff;
+
+  }
+  .message .list1 li{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    line-height: 1rem;
+    overflow: hidden;
+    /*border: solid 1px red;*/
+  }
+  .message .list1 li span{
+    float: left;
+    font-size: 0.3rem ;
+    color: #000000;
+  }
+  .message .list1 li span p{
+    float: left;
+    color: #000000;
+    /*background: #F5F6F8 ;*/
+  }
+
+  .message .list1 li a{
+    float: right;
+    font-size: 0.26rem ;
+    color: #878787;
+  }
+  .message .list1 li a img{
+    display: block;
+    float: right;
+    width: 0.12rem;
+    height: 0.2rem;
+    margin-top: 0.38rem;
+  }
+  .message .update{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.24rem;
+    line-height: 0.8rem;
+    background: #ffffff;
+
+  }
+  .message .update span{
+    float: left;
+    font-size: 0.3rem ;
+    color: #000000;
+  }
+  .switch-container {
+    margin-top: 0.2rem;
+    float: right;
+
+    //border: solid 1px red;
+  }
+  .switch-container .mint-switch{
+    display: block;
+  }
+  .switch-container .mint-switch .mint-switch-core{
+    width: 42px;
+    height: 22px;
+  }
+  .switch-container .mint-switch .mint-switch-core::after{
+    width: 20px;
+    height: 20px;
+  }
+  .switch-container .mint-switch .mint-switch-core::before{
+    height: 0;
+  }
+
+
+
+  .message .list2{
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff;
+
+
+  }
+  .message .list2 li{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    margin-top: 0.4rem;
+    line-height: 0.8rem;
+    overflow: hidden;
+  }
+  .message .list2 li span{
+    float: left;
+    font-size: 0.3rem ;
+    color: #000000 ;
+  }
+  .message .list2 li span label{
+    float: left;
+  }
+  .message .list2 li span i{
+    float: left;
+    font-size: 0.25rem ;
+    background: orangered ;
+    color: #ffffff;
+    width: 0.6rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    margin-top: 0.12rem;
+
+  }
+  .message .list2 li a{
+    float: right;
+    font-size: 0.25rem ;
+    color: #878787;
+  }
+  .message .list2 li a img{
+    display: block;
+    float: right;
+    width: 0.12rem;
+    height: 0.2rem;
+    margin-top: 0.2rem;
+  }
+  .message p.close{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 0.5rem;
+    font-size: 0.26rem;
+    text-align: left;
+    line-height: 0.5rem;
+    color: darkgray;
+  }
+  .message p.login{
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.26rem;
+    text-align: center;
+    line-height: 0.8rem;
+    background: #ffffff;
+    color: #FF4500;
+  }
+}

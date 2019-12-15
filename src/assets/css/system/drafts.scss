@@ -1,0 +1,21 @@
+#drafts {
+  background: #F1F0F4;
+  .send {
+    width: 100%;
+    height: 3rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 0.25rem;
+    color: #B0B4B7;
+  }
+
+  .send img {
+    display: block;
+    width: 1.2rem;
+    height: 1.3rem;
+    margin: 0.3rem auto;
+  }
+}

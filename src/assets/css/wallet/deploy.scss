@@ -1,0 +1,83 @@
+#wallet{
+  .deploy{
+    width: 100%;
+    display: flex;
+  }
+  .deploy>div{
+    flex: 1;
+    height: 0.7rem;
+    text-align: center;
+    line-height: 0.7rem;
+    font-size: 0.3rem;
+    color: #828D96;
+  }
+  .deploy_content{
+    padding: 0.6rem 0.25rem 0 0.25rem;
+
+  }
+  .hide_deploy{
+    width: 100%;
+    height: 0.7rem;
+    font-size: 0;
+    margin-bottom: 0.2rem;
+    clear: both;
+    .btn_left{
+      height: 100%;
+      background: pink;
+      text-align: center;
+      float: left;
+      font-size: 0.24rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+      width: 2.6rem;
+      word-break: break-all;
+      overflow: hidden;
+    }
+    .put{
+      float: left;
+      width: 65%;
+      height: 0.7rem;
+      border: solid 1px #B0B4B7;
+      background: none;
+      padding-left: 0.1rem;
+      padding-right: 0.1rem;
+    }
+  }
+
+  label .textPut{
+    float: left;
+    width: 65%;
+    height: 0.7rem;
+    border: solid 1px #B0B4B7;
+    background: none;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    margin-left: 2.6rem;
+    margin-top: 0.2rem;
+  }
+  label .crPut{
+    float: left;
+    width: 65%;
+    height: 0.7rem;
+    border: solid 1px #B0B4B7;
+    background: none;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+    margin-left: 2.6rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+  .transact{
+    width: 2rem;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    background: pink;
+    text-align: center;
+    float: right;
+    font-size: 0.28rem;
+    margin-right: 3%;
+  }
+}

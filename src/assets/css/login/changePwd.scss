@@ -1,0 +1,136 @@
+#changePwd{
+    background: #F1F0F4;
+    .name{
+        width: 100%;
+        border-bottom: solid 1px #DEDFE1;
+        height: 1rem;
+        line-height: 1rem;
+        position: relative;
+
+    }
+    .name span{
+        font-size: 0.3rem;
+        color: #000;
+        position: absolute;
+        left: 0.25rem;
+        z-index: 1;
+    }
+    .name input{
+        font-size: 0.3rem;
+        position: absolute;
+        /*background: gray;*/
+        height: 100%;
+        width: 100%;
+        left: 0rem;
+        top: 0;
+        padding-left: 1.6rem;
+    }
+    .news{
+        padding-top: 1.3rem;
+    }
+    .phone{
+        width: 100%;
+        border-bottom: solid 1px #DEDFE1;
+        height: 1rem;
+        line-height: 1rem;
+        position: relative;
+
+
+    }
+    .phone span{
+        font-size: 0.3rem;
+        color: #000;
+        position: absolute;
+        left: 0.25rem;
+        z-index: 1;
+    }
+    .phone input{
+        font-size: 0.3rem;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0rem;
+        top: 0;
+        padding-left: 1.6rem;
+    }
+    .phone a{
+        font-size: 0.3rem;
+        color: #B0B4B7;
+        position: absolute;
+        right: 0.2rem;
+    }
+    .pass{
+        width: 100%;
+        border-bottom: solid 1px #DEDFE1;
+        height: 1rem;
+        line-height: 1rem;
+        position: relative;
+
+    }
+    .pass span{
+        font-size: 0.3rem;
+        color: #000;
+        position: absolute;
+        left: 0.25rem;
+        z-index: 1;
+    }
+    .pass input{
+        font-size: 0.3rem;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0rem;
+        top: 0;
+        outline: none;
+        padding-left: 2rem;
+    }
+    .pass i{
+        font-size: 0.4rem;
+        color: #B0B4B7;
+        position: absolute;
+        right: 0.2rem;
+        img{
+            width: .4rem;
+            height: .4rem;
+        }
+    }
+    input::-webkit-input-placeholder {
+        color:  #B0B4B7;
+    }
+    .repeatPwd{
+        width: 100%;
+        border-bottom: solid 1px #DEDFE1;
+        height: 1rem;
+        line-height: 1rem;
+        position: relative;
+
+    }
+    .repeatPwd span{
+        font-size: 0.3rem;
+        color: #000;
+        position: absolute;
+        left: 0.25rem;
+        z-index: 1;
+    }
+    .repeatPwd input{
+        font-size: 0.3rem;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0rem;
+        top: 0;
+        outline: none;
+        padding-left: 1.6rem;
+    }
+    .sure{
+        width: 90%;
+        height: 1rem;
+        line-height: 1rem;
+        margin: 1rem auto;
+        font-size: 0.3rem;
+        color: #ffffff;
+        text-align: center;
+        border-radius: 0.6rem;
+        background: #411E60;
+    }
+}

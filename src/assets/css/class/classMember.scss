@@ -1,0 +1,175 @@
+#classMember {
+
+  .member {
+    width: 100%;
+    padding-top: 1.2rem;
+    height: 100%;
+    overflow: hidden;
+    .member_content{
+      height: 100%;
+    }
+  }
+
+  .member form {
+    width: 100%;
+    position: relative;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .member form i {
+    position: absolute;
+    left: 0.7rem;
+    top: 0.58rem;
+    font-size: 0.4rem;
+  }
+
+  .member form input {
+    width: 100%;
+    padding: 0.2rem .2rem .2rem .8rem;
+    border-radius: 0.6rem;
+    background: #fff;
+    font-size: 0.3rem;
+  }
+
+  input::-webkit-input-placeholder {
+    color: #B0B4B7;
+
+  }
+
+  .member_list {
+    width: 100%;
+  }
+
+  .member_list li {
+    height: 1.3rem;
+    line-height: 1.3rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+
+  }
+
+  .member_list li .left {
+    display: block;
+    float: left;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-top: 0.38rem;
+    margin-right: 0.4rem;
+  }
+
+  .member_list li p {
+    float: left;
+    font-size: 0.3rem;
+    color: #000000;
+  }
+
+  .member_list li .right {
+    display: block;
+    float: right;
+    width: 0.15rem;
+    height: 0.23rem;
+    margin-top: 0.56rem;
+  }
+
+  .member_intro {
+    width: 100%;
+    font-size: 0.26rem;
+    color: #B0B4B7;
+    line-height: 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .member_name {
+    width: 100%;
+    line-height: 0.8rem;
+    overflow: hidden;
+    padding: 0 0 .8rem 0;
+
+    li {
+      padding: 0 .5rem;
+      width: 100%;
+      height: .8rem;
+
+      div {
+        float: left;
+        width: 0.6rem;
+        height: 0.6rem;
+        margin-top: 0.1rem;
+        margin-right: 0.4rem;
+        overflow: hidden;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .member_name li .left1 {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .member_name li p {
+    float: left;
+    font-size: 0.3rem;
+    color: #000000;
+  }
+
+  .member_name li .right1 {
+    float: right;
+    font-size: 0.26rem;
+    color: #B0B4B7;
+
+
+  }
+
+  .member_mask {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+
+  .member_mask .member_maskContent {
+    width: 80%;
+    height: 3rem;
+    background: #ffffff;
+    border-radius: 0.05rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .member_mask .member_maskContent p {
+    font-size: 0.3rem;
+    color: #B0B4B7;
+    line-height: 0.8rem;
+    //border: solid 1px red;
+  }
+
+  .member_mask .member_maskContent div {
+    height: 0.8rem;
+    padding-top: 0.2rem;
+  }
+
+  .member_mask .member_maskContent div input {
+    float: left;
+    margin-top: 0.08rem;
+    width: 0.3rem;
+    height: 0.3rem;
+  }
+
+  .member_mask .member_maskContent div span {
+    font-size: 0.3rem;
+    color: #B0B4B7;
+    float: left;
+    margin-left: 0.3rem;
+  }
+}

@@ -1,0 +1,156 @@
+$mainColor: #411E60;
+#myAssets {
+  .header form {
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 1rem;
+  }
+
+  .header .searchIcon {
+    display: block;
+    position: absolute;
+    left: 1.15rem;
+    top: 52%;
+    width: 0.3rem;
+    height: 0.3rem;
+    z-index: 1;
+    transform: translateY(-50%);
+  }
+
+  .header input {
+    width: 100%;
+    padding: .13rem .13rem .13rem .6rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    font-size: 0.3rem;
+    outline: none;
+  }
+
+  .header a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.3rem;
+    color: #411E60;
+    padding: 0 .2rem;
+  }
+
+  .assetsBox {
+    padding-top: 1.3rem;
+    height: 100%;
+
+    .assetsTit {
+      background-color: #F1F0F4;
+      border-top: 1px solid rgba(204, 204, 204, .2);
+      font-size: .28rem;
+      color: #696969;
+      line-height: 30px;
+      padding-left: .4rem;
+      width: 100%;
+      position: fixed;
+      left: 0;
+      z-index: 10;
+    }
+
+    .assetsOfbox {
+      width: 100%;
+      height: calc(100% - 96px);
+      position: absolute;
+      top: 96px;
+    }
+
+    .assetsItem {
+      .bottomLine::before {
+        width: 92%;
+        right: -.4rem;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.2);
+        bottom: -6px;
+      }
+
+      li {
+        padding: 10px 20px;
+        position: relative;
+
+        div:first-child {
+          position: relative;
+        }
+
+        .assetsImg {
+          display: inline-block;
+          width: .8rem;
+          height: .8rem;
+          border: 1px solid rgba(204, 204, 204, .3);
+          border-radius: 50%;
+          background-color: #fff;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+
+          img {
+            display: block;
+            width: .45rem;
+            height: .45rem;
+            position: relative;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+          }
+        }
+
+        .assetsItem-lf {
+          float: right;
+          display: inline-block;
+          font-size: .32rem;
+          width: calc(100% - 1rem);
+
+          p {
+            line-height: 24px;
+          }
+
+          p:nth-of-type(2) {
+            font-size: .26rem;
+            color: #696969;
+          }
+
+          p:nth-of-type(3) {
+            color: #C2C7CB;
+            font-size: .28rem;
+          }
+        }
+
+        .assets-btn {
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+
+          .mint-switch-core {
+            width: 37px;
+            height: 8px;
+          }
+
+          .mint-switch-core::before {
+            width: 35px;
+            height: 6px;
+            background-color: transparent;
+          }
+
+          .mint-switch-core::after {
+            width: 20px;
+            height: 20px;
+            left: -1px;
+            top: -130%;
+          }
+
+          .mint-switch-input:checked + .mint-switch-core {
+            border-color: $mainColor;
+            background-color: $mainColor;
+          }
+        }
+
+
+      }
+    }
+  }
+}

@@ -1,0 +1,91 @@
+#classDetail{
+  background: #F1F0F4;
+  .new{
+    height: 100%;
+    padding-top: 1.3rem;
+  }
+  .area{
+    width: 100%;
+    height: 2rem;
+    .abc{
+      width: 100%;
+      line-height: 0.5rem;
+      text-align: center;
+      color: #4d4d4d;
+      font-weight: bold;
+      font-size: 0.32rem;
+      padding: 0.15rem;
+    }
+    .area_share{
+      width: 1.8rem ;
+      height: 0.6rem;
+      text-align: center;
+      line-height: 0.6rem;
+      border: solid 1px #411E60;
+      font-size: 0.26rem;
+      margin: auto;
+      border-radius: 0.5rem;
+      padding-left: 0.05rem;
+      img{
+        display: block;
+        width: 0.4rem;
+        height: 0.4rem;
+        float: left;
+        margin-top: 0.08rem;
+      }
+    }
+  }
+  .classDetail .list1{
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff;
+
+  }
+  .classDetail .list1 li{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    line-height: 1.2rem;
+    overflow: hidden;
+    position: relative;
+  }
+  .bottomLine::before {
+    content: '';
+    display: block;
+    width: 96%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-bottom: 1px solid rgba(237,237,237,1);
+  }
+  .classDetail .list1 li .class_intro{
+    float: left;
+    font-size: 0.28rem ;
+    color: #000000;
+  }
+
+
+  .classDetail .list1 li a{
+    float: right;
+    font-size: 0.28rem ;
+    color: #B0B4B7;
+  }
+  .classDetail .list1 li a span{
+    padding-right: 0.3rem;
+  }
+  .classDetail .list1 li a img{
+    display: block;
+    float: right;
+    width: 0.12rem;
+    height: 0.2rem;
+    margin-top: 0.5rem;
+  }
+  .class_login{
+    width: 100%;
+    background: #ffffff;
+    font-size: 0.28rem ;
+    color: #411E60;
+    text-align: center;
+    line-height: 1.2rem;
+    margin-top: 0.3rem;
+  }
+}

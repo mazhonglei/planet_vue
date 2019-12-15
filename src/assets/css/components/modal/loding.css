@@ -1,0 +1,49 @@
+.loding-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+}
+
+.loding-box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 2.4rem;
+    height: 2.4rem;
+    background-color: #F6F6F7;
+    border-radius: .2rem;
+}
+
+.loding-icon {
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%);
+    display: inline-block;
+    width: .3rem;
+    height: .3rem;
+}
+.loding-icon.loding-size{
+    width: .8rem;
+    height: .8rem;
+}
+.loding-box .loding-complete{
+    top: 68%;
+}
+.loding-icon > img {
+    width: 100%;
+}
+
+.loding-text {
+    position: absolute;
+    left: 0;
+    top: 55%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+}

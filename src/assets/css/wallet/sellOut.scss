@@ -1,0 +1,384 @@
+$mainColor: #411E60;
+#sellOut {
+  .transaction-buy-content {
+    width: 100%;
+    height: 100%;
+    background-color: #F1F0F4;
+  }
+
+  .transaction-buy-title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #411E60;
+    position: relative;
+  }
+
+  .transaction-buy-title img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+  }
+
+  .transaction-buy-home {
+    width: 100%;
+    padding-top: 1.3rem;
+  }
+
+  .transaction-buy-pay {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+  }
+
+  .transaction-buy-pay > div:first-child {
+    height: 40px;
+    padding: 0 10px;
+  }
+
+  .transaction-buy-pay > div:first-child > div:first-child {
+    float: left;
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .transaction-buy-pay > div:first-child > div:last-child {
+    float: right;
+    line-height: 40px;
+    font-size: 12px;
+    color: #411E60;
+  }
+
+  .transaction-buy-pay > div:last-child {
+    height: 40px;
+    padding: 10px;
+    margin-left: 20px;
+  }
+
+  .transaction-buy-pay > div:last-child input {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+  }
+
+  .transaction-buy-estimate {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+
+  .transaction-buy-estimate > div:first-child {
+    height: 40px;
+    padding: 0 10px;
+  }
+
+  .transaction-buy-estimate > div:first-child > div:first-child {
+    float: left;
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .transaction-buy-estimate > div:first-child > div:last-child {
+    float: right;
+    line-height: 40px;
+    font-size: 12px;
+    color: #411E60;
+  }
+
+  .transaction-buy-estimate > div:last-child {
+    height: 40px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #411E60;
+    margin-left: 20px;
+  }
+
+  .transaction-buy-cost {
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    margin-top: 20px;
+  }
+
+  .transaction-buy-cost > div:first-child {
+    height: 40px;
+    padding: 0 10px;
+  }
+
+  .transaction-buy-cost > div:first-child > div:first-child {
+    float: left;
+    line-height: 40px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .transaction-buy-cost > div:first-child > div:last-child {
+    float: right;
+    line-height: 40px;
+    font-size: 12px;
+    color: #411E60;
+  }
+
+  .transaction-buy-hint {
+    padding: 0 20px;
+    font-size: 14px;
+    margin-top: 20px;
+    color: #aaa;
+  }
+
+  .transaction-buy-button {
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .buyout {
+    background-color: #FF4081;
+  }
+
+  .buyin {
+    background-color: #009688;
+  }
+
+  .sureMask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 51;
+
+  }
+
+  .sureMaskContent {
+    width: 100%;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 52;
+    border-top-right-radius: 0.2rem;
+    border-top-left-radius: 0.2rem;
+    padding-bottom: 1rem;
+  }
+
+  .sureMaskContent .contentShare {
+    width: 100%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.35rem;
+    border-radius: 0.1rem 0.1rem 0 0;
+    border-bottom: 0.01rem solid #ddd;
+    background-color: #FBFCFC;
+    position: relative;
+  }
+
+  .sureMaskContent .contentShare i {
+    float: right;
+    margin-right: 0.3rem;
+    font-size: 0.32rem;
+    color: #DEDFE1;
+    position: absolute;
+    right: 0;
+
+  }
+
+  .sureMaskContent .data {
+    width: 100%;
+    height: 1.1rem;
+    /*border: solid 1px red;*/
+    line-height: 1.1rem;
+  }
+
+  .sureMaskContent .data img {
+    float: left;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-top: 0.25rem;
+    margin-right: 0.2rem;
+  }
+
+  .sureMaskContent .data span {
+    float: left;
+    font-size: 0.32rem;
+    color: #000;
+    margin-right: 0.3rem;
+    font-weight: bold;
+  }
+
+  .sureMaskContent .data label {
+    float: left;
+    font-size: 0.32rem;
+    font-weight: bold;
+  }
+
+  .sureMaskContent input[type=password] {
+    width: 100%;
+    height: 1.2rem;
+    background: #F4F4F4;
+    font-size: 0.3rem;
+    padding-left: 0.2rem;
+    outline: none;
+    border-radius: 0.1rem;
+  }
+
+  .sureMaskContent .pay {
+    width: 100%;
+    height: 0.9rem;
+    background: #F4F4F4;
+    font-size: 0.3rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.9rem;
+    border-radius: 0.6rem;
+    margin-top: 0.6rem;
+    transition: .5s;
+  }
+
+  .sureMaskContent .pay_active {
+    background-color: $mainColor;
+  }
+
+  .detail-money {
+    width: 100%;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    text-align: center;
+    font-size: 0.5rem;
+  }
+
+  .detail-information {
+    height: 1rem;
+    margin-top: 0.2rem;
+    width: 100%;
+    font-size: 0.25rem;
+    padding-left: 0.2rem;
+    border-bottom: 0.01rem solid #ddd;
+    display: flex;
+
+    div:first-child {
+      width: 25%;
+      color: #828D96;
+    }
+
+    div:last-child {
+      width: 65%;
+      word-wrap: break-word;
+    }
+  }
+
+  .detail-information.detail-first {
+    height: .6rem;
+  }
+
+  .detail-cost {
+    border: 0;
+    position: relative;
+  }
+
+  .content-next {
+    width: 100%;
+    height: .8rem;
+    text-align: center;
+    line-height: .8rem;
+    font-size: 0.3rem;
+    background-color: #411E60;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+  }
+
+  .content-password {
+    width: 100%;
+    height: 8.6rem;
+    background-color: #fff;
+    border-radius: 0.1rem 0.1rem 0 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 52;
+
+    .password-title {
+      width: 100%;
+      height: 1rem;
+      line-height: 1rem;
+      text-align: center;
+      font-size: 0.35rem;
+      border-radius: 0.1rem 0.1rem 0 0;
+      border-bottom: 0.01rem solid #ddd;
+      background-color: #FBFCFC;
+      position: relative;
+
+      img {
+        width: 0.3rem;
+        position: absolute;
+        left: 0.2rem;
+        top: 0.35rem;
+      }
+    }
+
+    .password-wallet {
+      width: 100%;
+      font-size: 0.3rem;
+      padding-left: 0.2rem;
+      margin-top: 0.3rem;
+    }
+
+    .password-word {
+      width: 95%;
+      height: 0.8rem;
+      border-bottom: 0.01rem solid #ddd;
+      margin-left: 0.2rem;
+      position: relative;
+
+      input {
+        width: 90%;
+        height: 0.78rem;
+        font-size: 0.3rem;
+        border: 0;
+        outline: none;
+        position: absolute;
+        padding: 0;
+      }
+    }
+
+    .password-img {
+      width: 0.4rem;
+      position: absolute;
+      right: 0.2rem;
+      top: 1.8rem;
+    }
+
+    .password-sure {
+      width: 100%;
+      height: .8rem;
+      text-align: center;
+      line-height: .8rem;
+      font-size: 0.3rem;
+      background-color: #C2C7CB;
+      color: #fff;
+      position: absolute;
+      bottom: 0;
+      transition: .4s;
+    }
+
+    .password-sure_active {
+      background-color: #411E60;
+    }
+  }
+}

@@ -1,0 +1,224 @@
+.lead-content{
+    width:100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+.lead-content input,.lead-content textarea{
+    padding: 0;
+}
+.content-title{
+    width: 100%;
+    height: 1.3rem;
+    line-height: 1.65rem;
+    background-color: #FBFCFD;
+    font-size: 0.3rem;
+    border-bottom: 0.01rem solid #ddd;
+    display: flex;
+    justify-content: space-between;
+}
+.title-left{
+    margin-left: 0.2rem;
+    line-height: 1.65rem;
+    font-size: 0.48rem!important;
+}
+.title-right{
+    margin-right: 0.2rem;
+}
+.content-title img{
+    width: 0.48rem;
+    vertical-align: top;
+    margin-top: 0.6rem;
+}
+.lead-nav{
+    width: 100%;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.25rem;
+    color: #828D96;
+    display: flex;
+}
+.lead-nav div{
+    flex: 1;
+    text-align: center;
+}
+.lead-hint{
+    width: 100%;
+    line-height: 0.4rem;
+    font-size: 0.25rem;
+    color: #828D96;
+    border-top: 0.01rem solid #ddd;
+    border-bottom: 0.01rem solid #ddd;
+    background-color: #FBFCFD;
+    padding: 0.4rem 0.5rem;
+}
+.mnemonic-textarea{
+    width: 100%;
+    height: 2rem;
+    padding: 0.4rem 0.4rem 0.1rem 0.4rem;
+}
+.mnemonic-textarea textarea{
+    resize: none;
+    width: 100%;
+    height: 100%;
+    font-size: 0.25rem;
+    line-height: 0.3rem;
+    outline: none;
+    border: 0.01rem solid #ddd;
+    padding: 0.1rem 0.2rem 0 0.2rem!important;
+}
+.mnemonic-textarea textarea::-webkit-input-placeholder{
+    font-size: 0.25rem;
+    color: #ddd;
+    font-weight: bold;
+}
+.mnemonic-path{
+    width: 90%;
+    height: 1.4rem;
+    margin: 0 auto;
+    position: relative;
+}
+.path-choose{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+}
+.path-choose span:last-child{
+    color: #411E60;
+}
+.path-choose img{
+    width: 0.3rem;
+    vertical-align: middle;
+}
+.mnemonic-path input{
+    width: 100%;
+    height: 0.6rem;
+    font-size: 0.25rem;
+    outline: none;
+    border: 0;
+    border-bottom: 0.01rem solid #ddd;
+    position: absolute;
+    top: 0.8rem;
+}
+.mnemonic-set{
+    width: 100%;
+    height: 3.7rem;
+    padding: 0 0.4rem;
+    position: relative;
+    margin-top: 0.2rem;
+}
+.mnemonic-set h1{
+    height: 0.4rem;
+    line-height: 0.4rem;
+    font-size: 0.25rem;
+    margin-top: 0.2rem;
+    font-weight: inherit;
+}
+.mnemonic-set>h1 img{
+    width: 0.4rem;
+    vertical-align: top;
+}
+.mnemonic-set input{
+    width: 89%!important;
+    height: 0.9rem!important;
+    font-size: 0.25rem;
+    border: 0!important;
+    outline: none!important;
+    border-bottom: 0.01rem solid #ddd!important;
+    padding: 0.2rem 0!important;
+}
+.mnemonic-password{
+    position: absolute;
+    top: 0.4rem;
+    left: 0.4rem;
+}
+.mnemonic-repassword{
+    position: absolute;
+    top: 1.7rem;
+    left: 0.4rem;
+}
+.mnemonic-repassword + img{
+    width: 0.5rem;
+    position: absolute;
+    right: 0.6rem;
+    top: 1.9rem;
+}
+.mnemonic-information{
+    position: absolute;
+    top: 2.6rem;
+    left: 0.4rem;
+}
+.mnemonic-intension{
+    height: 0.8rem;
+    font-size: 0.25rem;
+    display: inline-block;
+    color: #411E60;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.4rem;
+}
+.mnemonic-intension > span {
+    float: right;
+    line-height: .65rem;
+    margin-right: .1rem;
+    color: #411E60;
+}
+.intension-line{
+    float: right;
+    width: .4rem;
+    height: 100%;
+}
+.intension-line>li{
+    width: 65%;
+    height: 10%;
+    background: #E6E7EA;
+    margin: 0 auto .1rem;
+}
+.intension-line > li:nth-of-type(4) {
+    margin-bottom: 0;
+}
+.mnemonic-suggest{
+    width: 89%;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    text-align: right;
+    font-size: 0.25rem;
+    color: #411E60;
+    position: absolute;
+    top: 1.3rem;
+}
+.mnemonic-set input::-webkit-input-placeholder{
+    font-size: 0.25rem;
+    color: #ddd;
+    font-weight: bold;
+}
+.content-start{
+    width: 89%;
+    height: 0.9rem;
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.3rem;
+    background-color: #C3C8CB;
+    color: #fff;
+    border-radius: 0.1rem;
+    margin: 0.5rem auto 1.2rem;
+}
+.content-understand{
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.25rem;
+    font-weight: bold;
+    color: #411E60;
+    background-color: #fff;
+    border-top: 0.01rem solid #ddd;
+    position: fixed;
+    bottom: 0;
+}
+.content-understand img{
+    width: 0.3rem;
+    vertical-align: middle;
+}

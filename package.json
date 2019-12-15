@@ -1,0 +1,78 @@
+{
+  "name": "planet",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --no-clean",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.4",
+    "better-scroll": "^1.13.4",
+    "bip39": "^2.5.0",
+    "cropperjs": "^1.4.3",
+    "crypto-js": "^3.1.9-1",
+    "css-loading": "^1.4.0",
+    "element-ui": "^2.4.11",
+    "emoji-vue": "^0.2.3",
+    "ethers": "^4.0.23",
+    "fastclick": "^1.0.6",
+    "jquery": "^3.3.1",
+    "kline": "^1.1.8",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "mint-ui": "^2.2.13",
+    "node-ipc": "^9.1.1",
+    "node-sass": "^4.11.0",
+    "qrcode": "^1.3.3",
+    "sass": "^1.15.2",
+    "sass-loader": "^7.1.0",
+    "sha1": "^1.1.1",
+    "url-loader": "^1.1.2",
+    "vue": "^2.5.17",
+    "vue-awesome-mui": "^1.7.3",
+    "vue-awesome-swiper": "^3.1.3",
+    "vue-clipboard2": "^0.2.1",
+    "vue-easy-uploader": "^1.0.6",
+    "vue-i18n": "^8.6.0",
+    "vue-loader": "^15.4.2",
+    "vue-preview": "^1.1.3",
+    "vue-router": "^3.0.2",
+    "vue2-preview": "^1.0.5",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.2.0",
+    "babel-eslint": "^10.0.1",
+    "css-loading": "^1.4.0",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "swiper": "^4.4.6",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {
+      "no-console": "off"
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}

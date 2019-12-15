@@ -1,0 +1,61 @@
+#nickName {
+  background: #F1F0F4;
+
+  .header span.send {
+    position: absolute;
+    right: 0.25rem;
+    font-size: 0.32rem;
+    color: #411E60;
+    letter-spacing: 0.02rem;
+  }
+
+  .new {
+    padding-top: 1.3rem;
+  }
+
+  form {
+    width: 100%;
+    margin-top: .2rem;
+    position: relative;
+  }
+
+  input {
+    display: block;
+    width: 100%;
+    background: #ffffff;
+    padding: 0.34rem;
+    font-size: .28rem;
+  }
+
+  form input::-webkit-input-placeholder {
+    color: #B0B4B7;
+    font-size: 0.3rem;
+  }
+
+  form img {
+    position: absolute;
+    right: 0.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0.28rem;
+    height: 0.28rem;
+  }
+
+  .signTure {
+    width: 100%;
+    height: 2rem;
+    margin-top: .2rem;
+    position: relative;
+
+    textarea {
+      width: 100%;
+      height: 100%;
+      border: none;
+      resize: none;
+      padding: .2rem;
+      outline: none;
+      font-size: .28rem;
+    }
+  }
+
+}

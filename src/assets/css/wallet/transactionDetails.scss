@@ -1,0 +1,261 @@
+#transactionDetails {
+  //交易成功
+  #rebateDetails {
+
+    width: 100%;
+    padding: 1.8rem .4rem;
+
+    .rebate-detail-content {
+      width: 100%;
+      height: 100%;
+      background-color: #F1F0F4;
+
+    }
+
+    .rebate-detail-title {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 16px;
+      color: #411E60;
+      position: relative;
+    }
+
+    .rebate-detail-title img {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      left: 10px;
+      top: 13px;
+    }
+
+
+    .rebate-detail-home-in {
+      width: 100%;
+      height: 330px;
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 0 10px;
+    }
+
+    .rebate-detail-success {
+      width: 100%;
+      height: 150px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      padding-top: 40px;
+    }
+
+    .rebate-detail-success div:first-child {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      margin: 0 auto;
+    }
+
+    .rebate-detail-success div:first-child img {
+      width: 40px;
+      height: 40px;
+    }
+
+    .rebate-detail-success div:nth-child(2) {
+      height: 20px;
+      line-height: 20px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .rebate-detail-success div:last-child {
+      font-size: 12px;
+      color: #aaa;
+      margin-top: 5px;
+    }
+
+    .rebate-detail-info {
+      width: 100%;
+      font-size: 14px;
+      padding: 20px 0;
+    }
+
+    .rebate-detail-info > div {
+      height: 30px;
+      line-height: 30px;
+      display: flex;
+    }
+
+    .rebate-detail-info > div > div:first-child {
+      width: 25%;
+      color: #aaa;
+    }
+
+    .rebate-detail-info > div > div:last-child {
+      width: 75%;
+    }
+  }
+
+  #withdrawDetails {
+    width: 100%;
+    padding: 1.8rem .4rem;
+
+    .withdraw-detail-content {
+      width: 100%;
+      height: 100%;
+      background-color: #F1F0F4;
+    }
+
+    .withdraw-detail-title {
+      width: 100%;
+      height: 50px;
+      line-height: 50px;
+      text-align: center;
+      font-size: 16px;
+      color: #411E60;
+      position: relative;
+    }
+
+    .withdraw-detail-title img {
+      width: 24px;
+      height: 24px;
+      position: absolute;
+      left: 10px;
+      top: 13px;
+    }
+
+    .withdraw-detail-home-in {
+      width: 100%;
+      height: 450px;
+      background-color: #fff;
+      border-radius: 20px;
+      padding: 0 10px;
+    }
+
+    .withdraw-detail-audit {
+      width: 100%;
+      height: 150px;
+      text-align: center;
+      border-bottom: 1px solid #ccc;
+      padding-top: 40px;
+    }
+
+    .withdraw-detail-audit div:first-child {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: #009688;
+      margin: 0 auto;
+      position: relative;
+    }
+
+    .withdraw-detail-audit div:first-child img {
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .withdraw-detail-audit div:nth-child(2) {
+      height: 20px;
+      line-height: 20px;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+
+    .withdraw-detail-audit div:last-child {
+      font-size: 12px;
+      color: #aaa;
+      margin-top: 5px;
+    }
+
+    .withdraw-detail-info {
+      width: 100%;
+      height: 170px;
+      font-size: 13px;
+      border-bottom: 1px solid #ccc;
+      padding: 20px 0;
+    }
+
+    .withdraw-detail-info > div {
+      display: flex;
+    }
+
+    .withdraw-detail-info > div:first-child, .withdraw-detail-info > div:nth-child(2) {
+      height: 30px;
+      line-height: 30px;
+    }
+
+    .withdraw-detail-info > div:last-child {
+      height: 40px;
+      line-height: 40px;
+    }
+
+    .withdraw-detail-info > div > div:first-child {
+      width: 25%;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .withdraw-detail-info > div > div:last-child {
+      word-wrap: break-word;
+      width: 72%;
+    }
+
+    .withdraw-detail-info > div:last-child > div:last-child {
+      word-wrap: break-word;
+      line-height: 18px;
+      padding-top: 6px;
+    }
+
+    .withdraw-detail-info img {
+      width: 12px;
+      height: 12px;
+      margin-left: 5px;
+    }
+
+    .withdraw-detail-code {
+      width: 100%;
+      height: 120px;
+      font-size: 13px;
+      padding: 20px 0;
+      display: flex;
+    }
+
+    .withdraw-detail-code > div:first-child {
+      width: 70%;
+    }
+
+    .withdraw-detail-code > div:first-child > div {
+      height: 30px;
+      line-height: 30px;
+      display: flex;
+    }
+
+    .withdraw-detail-code > div:first-child > div > div:first-child {
+      width: 35.7%;
+      font-size: 14px;
+      color: #aaa;
+    }
+
+    .withdraw-detail-code > div:first-child > div > div:last-child {
+      width: 60%;
+    }
+
+    .withdraw-detail-code > div:first-child > div > div:last-child img {
+      width: 12px;
+      height: 12px;
+      margin-left: 5px;
+    }
+
+    .withdraw-detail-code > div:last-child {
+      width: 30%;
+      text-align: right;
+    }
+
+    .withdraw-detail-code > div:last-child img {
+      width: 80px;
+      height: 80px;
+    }
+  }
+}

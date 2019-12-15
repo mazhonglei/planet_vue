@@ -1,0 +1,115 @@
+$mainColor: #411E60;
+#login {
+  overflow: hidden;
+
+  .padding-box {
+    padding-top: 1.3rem;
+  }
+
+  /*头部*/
+  .header {
+
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .header span.log {
+    position: absolute;
+    right: 0.25rem;
+    font-size: 0.3rem;
+    color: $mainColor;
+    letter-spacing: 0.02rem;
+
+  }
+
+  .phone {
+    width: 100%;
+    border-bottom: solid 1px #DEDFE1;
+    height: 1rem;
+    line-height: 1rem;
+    position: relative;
+
+  }
+
+  .phone span {
+    font-size: 0.3rem;
+    color: #000;
+    position: absolute;
+    left: 0.25rem;
+    z-index: 1;
+  }
+
+  .phone input {
+    font-size: 0.3rem;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding-left: 1.4rem;
+  }
+
+  .pwd {
+    width: 100%;
+    border-bottom: solid 1px #DEDFE1;
+    height: 1rem;
+    line-height: 1rem;
+    position: relative;
+    background-color: #fff;
+  }
+
+  .pwd span {
+    font-size: 0.3rem;
+    color: #000;
+    position: absolute;
+    left: 0.25rem;
+    z-index: 1;
+  }
+
+  .pwd input {
+    font-size: 0.3rem;
+    position: absolute;
+    height: 100%;
+    width: 85%;
+    left: 0;
+    top: 0;
+    padding-left: 1.4rem;
+  }
+
+  .pwd i {
+    font-size: 0.4rem;
+    color: #B0B4B7;
+    position: absolute;
+    right: 0.2rem;
+    padding: 0 .2rem;
+
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  input::-webkit-input-placeholder {
+    color: #B0B4B7;
+  }
+
+  .register {
+    width: 90%;
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.3rem;
+    color: #ffffff;
+    background: $mainColor;
+    border-radius: 0.6rem;
+    margin: 1rem auto 0;
+  }
+
+  .forget {
+    font-size: 0.25rem;
+    color: #B0B4B7;
+    float: right;
+    margin-top: 0.4rem;
+    margin-right: 0.4rem;
+  }
+}

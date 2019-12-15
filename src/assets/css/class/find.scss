@@ -1,0 +1,121 @@
+#find {
+  .new {
+    height: 100%;
+  }
+
+  .common .img {
+    overflow: hidden;
+  }
+
+  .speak > span:nth-of-type(1) {
+    color: #6a89a1;
+  }
+
+
+  .content {
+    width: 100%;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    padding-top: 1.3rem;
+  }
+
+  .findPage {
+    height: calc(100% - 55px);
+    overflow: hidden;
+  }
+
+  .common {
+    width: 100%;
+    border-bottom: solid 1px #e6e7e7;
+  }
+
+  .common:last-child {
+    margin-bottom: 1rem;
+  }
+
+  .common .img {
+    float: left;
+    width: 0.65rem;
+    height: 0.65rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 0.55rem;
+    margin-right: 0.25rem;
+  }
+
+  .common .img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .common .commonContent {
+    float: left;
+    margin-top: 0.55rem;
+    margin-bottom: 0.5rem;
+    width: 84.5%;
+  }
+
+  .common .commonContent .speak {
+    color: #212121;
+    font-size: 0.3rem;
+    margin-top: 0.1rem;
+    word-break: break-all;
+
+    span {
+      img {
+        vertical-align: text-bottom;
+      }
+    }
+  }
+
+  .common .commonContent .imgs {
+    width: 100%;
+    margin-top: 0.2rem;
+  }
+
+  .common .commonContent .imgs div .my-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .common .commonContent .imgs div .my-gallery figure {
+    margin: 3px 3px 3px 0;
+    width: 32%;
+    height: 85px;
+    overflow: hidden;
+    background-color: #fff;
+    border-radius: .16rem;
+  }
+
+  .common .commonContent .imgs > div img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+    object-fit: cover;
+  }
+
+  .pswp__button--share, .pswp__button--fs {
+    display: none;
+  }
+
+  .common .commonContent .images {
+    margin-top: 0.2rem;
+  }
+
+  .common .commonContent .images span {
+    float: left;
+    font-size: 0.25rem;
+    color: #B0B4B7;
+  }
+
+  .common .commonContent .images label {
+    float: right;
+    font-size: 0.25rem;
+    color: #B0B4B7;
+    margin-right: 0.2rem;
+  }
+
+
+}

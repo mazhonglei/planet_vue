@@ -1,0 +1,151 @@
+#bancor {
+  .bancor-transaction-content {
+    width: 100%;
+    height: 100%;
+    background-color: #F1F0F4;
+  }
+
+  .bancor-transaction-title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #411E60;
+    position: relative;
+  }
+
+  .bancor-transaction-title img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+  }
+
+  .bancor-transaction-home {
+    width: 100%;
+    padding-top: 1.3rem;
+  }
+
+  .transaction-assets-title {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #aaa;
+    padding: 0 20px;
+
+    div {
+      font-size: .24rem;
+    }
+
+    div:first-child {
+      width: 40%;
+      height: 30px;
+      float: left;
+    }
+
+    div:nth-child(2) {
+      width: 25%;
+      height: 30px;
+      text-align: right;
+      float: left;
+    }
+
+    div:last-child {
+      width: 30%;
+      height: 30px;
+      line-height: 30px;
+      text-align: right;
+      float: right;
+    }
+  }
+
+  .transaction-assets-content {
+    width: 100%;
+    height: calc(100% - 30px);
+  }
+
+  .transaction-assets-list {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    padding: 0 20px;
+    margin-bottom: 15px;
+  }
+
+  .transaction-assets-name {
+    width: 40%;
+    height: 50px;
+    float: left;
+  }
+
+  .transaction-assets-name > div:first-child {
+    height: 30px;
+    display: flex;
+  }
+
+  .transaction-assets-name > div:first-child div:first-child {
+    font-size: 16px;
+    line-height: 40px;
+  }
+
+  .transaction-assets-name > div:first-child div:last-child {
+    font-size: 12px;
+    line-height: 40px;
+    color: #aaa;
+  }
+
+  .transaction-assets-name > div:last-child {
+    height: 20px;
+    line-height: 10px;
+    font-size: 12px;
+    color: #aaa;
+  }
+
+  .transaction-assets-money {
+    width: 25%;
+    height: 50px;
+    font-size: 12px;
+    text-align: right;
+    float: left;
+  }
+
+  .transaction-assets-money div:first-child {
+    height: 30px;
+    line-height: 40px;
+    font-size: 16px;
+  }
+
+  .transaction-assets-money div:last-child {
+    height: 20px;
+    line-height: 10px;
+    color: #aaa;
+  }
+
+  .transaction-assets-change {
+    width: 30%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    color: #fff;
+    float: right;
+    margin-top: 10px;
+  }
+
+  .transaction-assets-change div {
+    width: 80px;
+    float: right;
+    border-radius: 5px;
+  }
+
+  .change-red {
+    background-color: #FF4081;
+  }
+
+  .change-green {
+    background-color: #009688;
+  }
+}

@@ -1,0 +1,72 @@
+#set {
+  background: #F1F0F4;
+
+  .new {
+    background-color: #fff;
+  }
+
+  ul.setUl {
+    width: 100%;
+    padding-top: 1.3rem;
+    box-sizing: border-box;
+
+  }
+
+  ul.setUl li {
+    height: 1.45rem;
+    line-height: 1.45rem;
+    position: relative;
+    padding: 0 .5rem;
+  }
+
+  ul.setUl li:first-child label {
+    float: right;
+    font-size: 0.3rem;
+    color: #696969;
+    margin-right: 0.2rem;
+  }
+
+  ul.setUl li .left {
+    display: block;
+    float: left;
+    width: .5rem;
+    height: .5rem;
+    margin-top: 0.45rem;
+    margin-right: 0.4rem;
+  }
+
+  ul.setUl li .resetPwd {
+    width: .52rem;
+    height: .52rem;
+    margin-right: .38rem;
+  }
+
+  ul.setUl li p {
+    float: left;
+    font-size: 0.3rem;
+    color: #000000;
+  }
+
+  ul.setUl li .right {
+    margin-top: 0.6rem;
+    float: right;
+    display: block;
+    width: 0.2rem;
+    height: 0.25rem;
+  }
+
+  .out {
+    position: fixed;
+    bottom: 0.3rem;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.32rem;
+    color: #411E60;
+    border: solid 1px #411E60;
+    border-radius: 0.5rem;
+  }
+}

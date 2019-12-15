@@ -1,0 +1,63 @@
+#mnemonic{
+  .header{
+    background-color: #fff;
+  }
+  .content-top{
+    margin-top: 1.3rem;
+  }
+  .content-backup-mnemonic{
+    width:100%;
+    height: 100%;
+    position: relative;
+  }
+  .content-return{
+    height: 1.3rem;
+  }
+  .content-return span{
+    margin-left: 0.2rem;
+    line-height: 1.65rem;
+    font-size: 0.48rem!important;
+  }
+  .content-mnemonic{
+    height: 1.8rem;
+    text-align: center;
+  }
+  .mnemonic-iconfont{
+    height: 1rem;
+    line-height: 1rem;
+  }
+  .mnemonic-iconfont img{
+    width: 0.8rem;
+  }
+  .mnemonic-title{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.35rem;
+  }
+  .content-hint{
+    width: 80%;
+    text-align: center;
+    line-height: 0.5rem;
+    margin: 0.75rem auto 0.5rem;
+    font-size: 0.3rem;
+    color: #828D96;
+  }
+  .mnemonic-english{
+    height: 1.6rem;
+    line-height: 0.45rem;
+    font-size: 0.28rem;
+    background-color: #F2F3F4;
+    padding: 0.4rem 0.4rem;
+  }
+  .backup-mnemonic-next{
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.3rem;
+    background-color: #411E60;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+  }
+}

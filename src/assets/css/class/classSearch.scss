@@ -1,0 +1,328 @@
+$backgroundColor: #F1F0F4;
+$headerColor: #411E60;
+#classSearch, #userSearch, #searchDate, #dateContent {
+
+  .searchBox {
+    height: 100%;
+  }
+  .header{
+    .backImg{
+      img{
+        left: -.4rem;
+      }
+    }
+  }
+  .header .searchIcon {
+    display: block;
+    position: absolute;
+    left: 1.15rem;
+    top: 52%;
+    width: 0.3rem;
+    height: 0.3rem;
+    z-index: 1;
+    transform: translateY(-50%);
+  }
+
+  .header form {
+    width: 100%;
+    padding: 0 1rem;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  .header input {
+    width: 100%;
+    padding: .13rem .13rem .13rem .6rem;
+    background: #fff;
+    border-radius: 0.5rem;
+    font-size: 0.3rem;
+    outline: none;
+  }
+
+  .header a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.3rem;
+    color: $headerColor;
+    padding: 0 .2rem;
+  }
+
+  .content {
+    /*width: 100%;*/
+    padding-left: 0.4rem;
+    padding-right: 0.4rem;
+    padding-top: 1.2rem;
+  }
+
+  .content .information {
+    width: 100%;
+    height: 1rem;
+    background: #ffffff;
+    margin-top: 0.4rem;
+  }
+
+  .content .information li {
+    float: left;
+    width: 32%;
+    line-height: 0.35rem;
+    border-right: solid 1px #DEDFE1;
+    margin-top: 0.3rem;
+  }
+
+  .content .information li:last-child {
+    border-right: none;
+  }
+
+  .content .information li img {
+    display: block;
+    float: left;
+    width: 0.4rem;
+    height: 0.4rem;
+    margin-left: 25%;
+    margin-right: 0.1rem;
+  }
+
+  .content .information li span {
+    float: left;
+    font-size: 0.25rem;
+    color: #000000;
+    margin-top: 0.05rem;
+
+  }
+
+  .content .label li {
+    margin-top: 0.6rem;
+  }
+
+  .clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+  }
+
+  .content .label li span {
+    float: left;
+    font-size: 0.3rem;
+    color: #959698;
+  }
+
+  .content .label li img {
+    display: block;
+    float: right;
+    width: 0.2rem;
+    height: 0.22rem;
+    margin-top: 0.12rem;
+  }
+
+
+  .content .tgaList li {
+    width: 1.8rem;
+    height: 0.7rem;
+    border: solid 1px;
+    text-align: center;
+    line-height: 0.7rem;
+    color: #7E7F81;
+    font-size: 0.3rem;
+    outline: none;
+    margin-top: 1.2rem;
+    border-radius: 0.1rem;
+
+  }
+
+  .searchContent {
+    padding-top: 1.3rem;
+    height: 100%;
+
+    .search-box {
+      padding: .2rem .3rem .2rem .3rem;
+      border-top: 1px solid rgba(204, 204, 204, .3);
+    }
+
+    .searchTitle {
+      font-size: .28rem;
+      color: #ADADAD;
+      line-height: 30px;
+    }
+
+    .searchItem {
+      li {
+        font-size: .28rem;
+        padding: .16rem 0;
+
+        div {
+          width: 100%;
+          overflow: hidden;
+          white-space: nowrap;
+          text-overflow: ellipsis;
+          img{
+            vertical-align: text-bottom;
+
+          }
+        }
+
+        .searchuserTime {
+          font-size: .24rem;
+          color: #ABABAB;
+          margin-top: 2px;
+
+          span {
+            margin-right: .2rem;
+          }
+
+          em {
+            margin-left: .1rem;
+            font-style: unset;
+          }
+        }
+
+      }
+
+      .userImg {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+
+    }
+
+    .pdnone {
+      li {
+        padding: 0;
+      }
+    }
+
+    .searchUser {
+      .userImg, .userName {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .classImg {
+        width: .72rem;
+        height: .72rem;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+
+      .userName {
+        width: calc(100% - .8rem);
+        padding: 10px;
+
+        div:nth-of-type(1) {
+          line-height: .44rem;
+        }
+
+        .userId {
+          font-size: .24rem;
+          color: #696969;
+
+          span:nth-of-type(1) {
+            padding: 0 .16rem 0 .1rem;
+          }
+        }
+      }
+    }
+  }
+
+  .dateBox {
+    padding-top: 1.3rem;
+
+    .dateItem {
+      ul {
+        margin-top: .2rem;
+        background-color: #fff;
+
+        li {
+          padding: .2rem;
+          font-size: .3rem;
+          line-height: .64rem;
+
+          .timeTxt {
+            float: left;
+          }
+
+          .dateTxt {
+            float: right;
+
+
+          }
+        }
+
+        li:nth-of-type(1) {
+          border-bottom: 1px solid rgba(204, 204, 204, .3);
+        }
+      }
+    }
+  }
+
+  .arrowIcon {
+    display: inline-block;
+    background: url("../../assets/img/ic_common_entrance_arrow.png") center center no-repeat;
+    width: .4rem;
+    height: .4rem;
+    background-size: 28%;
+    vertical-align: -.1rem;
+  }
+
+  .picker-toolbar {
+    display: flex;
+
+    .mint-datetime-cancel, .mint-datetime-confirm {
+      color: #D94237;
+    }
+
+    .mint-datetime-cancel {
+      text-align: left;
+      margin-left: 20px;
+    }
+
+    .mint-datetime-confirm {
+      text-align: right;
+      margin-right: 20px;
+    }
+  }
+
+  .viewMore {
+    font-size: 14px;
+    color: #5D7792;
+    padding: .15rem 0 0 0;
+
+    span {
+      margin-left: .05rem;
+    }
+
+    .search-icon {
+      display: inline-block;
+      background: url("../../assets/img/searchicon2.png") center center no-repeat;
+      width: .4rem;
+      height: .4rem;
+      background-size: 75%;
+      vertical-align: -.1rem;
+    }
+
+    .arrowIcon {
+      float: right;
+    }
+  }
+
+}
+
+#classSearch {
+  .header form {
+    padding: 0 1rem 0 .2rem;
+  }
+
+  .header .searchIcon {
+    left: .35rem;
+  }
+
+}

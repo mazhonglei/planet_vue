@@ -1,0 +1,87 @@
+#message {
+  background: #F1F0F4;
+  .content {
+    width: 100%;
+    padding:1.3rem 0 0 0;
+    .msgList{
+      li{
+        padding: 0 .25rem;
+        position: relative;
+      }
+    }
+  }
+
+  .content .news {
+    width: 100%;
+    position: relative;
+
+  }
+  .content .news .commentPo{
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #411E60;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .content .news img {
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .content .news .messagePo{
+    position: absolute;
+    width: 0.6rem;
+    height: 0.6rem;
+    background: #411E60;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  .content .news img {
+    display: block;
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .content .news .newContent {
+    float: left;
+    width: 100%;
+    padding-left: 0.9rem;
+  }
+
+  .content .news .newContent p {
+    margin-top: 0.25rem;
+
+  }
+
+  .content .news .newContent p span {
+    float: left;
+    font-size: 0.32rem;
+    color: #000;
+  }
+
+  .content .news .newContent p label {
+    float: right;
+    font-size: 0.28rem;
+    color: #818181;
+  }
+
+  .content .news .newContent .common {
+    margin-top: 0.1rem;
+    float: left;
+    font-size: 0.25rem;
+    color: #818181;
+    margin-bottom: 0.2rem;
+  }
+
+
+}

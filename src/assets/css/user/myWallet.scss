@@ -1,0 +1,105 @@
+#myWallet{
+  background: #ffffff;
+  .myWallet{
+    height: 100%;
+    .myWalletCon{
+      padding-top: 1.6rem;
+      padding-bottom: 0.6rem;
+      width: 100%;
+      background: #F1F0F4;
+      .myHeadImg{
+        width: 1.6rem;
+        height: 1.6rem;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: auto;
+        img{
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .myReceive{
+        width: 100%;
+        .p1{
+          text-align: center;
+          font-size: 0.28rem;
+          color: #000;
+          margin-top: 0.4rem;
+          margin-bottom: 0.1rem;
+        }
+        .p2{
+          text-align: center;
+          font-size: 0.6rem;
+          color: #000;
+          span{
+            font-size: 0.28rem;
+            color: #6e6e6e;
+          }
+        }
+      }
+      .receiveWallet{
+        padding: 0.2rem;
+        width: 100%;
+      div{
+        font-size: 0.28rem;
+        color: #B0B4B7;
+        text-align: center;
+      }
+      }
+    }
+    .walletDate{
+      width: 100%;
+      background: #ffffff;
+      padding-bottom: 1rem;
+      ul{
+        width: 100%;
+        li{
+          position: relative;
+          padding-left: 0.25rem;
+          padding-right: 0.25rem;
+          padding-bottom: 0.2rem;
+          .name{
+            width: 100%;
+            line-height: 0.6rem;
+            .span_name{
+              float: left;
+              font-size: 0.32rem;
+              color: #000;
+            }
+            .span_money{
+              float: right;
+              font-size: 0.28rem;
+              color: #000;
+            }
+          }
+          .time{
+            width: 100%;
+            .span_time{
+              float: left;
+              font-size: 0.24rem;
+              color: #B0B4B7;
+            }
+            .span_num{
+              float: right;
+              font-size: 0.24rem;
+              color: #B0B4B7;
+            }
+          }
+        }
+        .bottomLine::before{
+          content: "";
+          display: block;
+          border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+          position: absolute;
+          right: 0.25rem;
+          bottom: 0;
+          width: 94%;
+        }
+        .bottomLine:last-child::before{
+          border: none;
+        }
+      }
+    }
+  }
+}

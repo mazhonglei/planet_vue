@@ -1,0 +1,247 @@
+#invitation {
+  background: #ffffff;
+
+  img {
+    display: block;
+  }
+
+  .myWallet {
+    height: 100%;
+
+    .myWalletCon {
+      padding-top: 1.3rem;
+      padding-bottom: 0.2rem;
+      width: 100%;
+      background: #F1F0F4;
+      font-size: 0;
+
+      .myHeadImg {
+        width: 1.6rem;
+        height: 1.6rem;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: auto;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .myReceive {
+        width: 100%;
+
+        .p1 {
+          text-align: center;
+          font-size: 0.28rem;
+          color: #000;
+          margin-top: 0.4rem;
+          margin-bottom: 0.1rem;
+        }
+
+        .p2 {
+          text-align: center;
+          font-size: 0.6rem;
+          color: #000;
+
+          span {
+            font-size: 0.28rem;
+            color: #6e6e6e;
+          }
+        }
+      }
+
+      .receiveWallet {
+        padding: 0.2rem;
+        width: 100%;
+
+        div {
+          font-size: 0.28rem;
+          color: #B0B4B7;
+          text-align: center;
+        }
+      }
+    }
+
+    .walletDate {
+      width: 100%;
+      background: #ffffff;
+
+      ul {
+        width: 100%;
+
+        li {
+          position: relative;
+          padding-left: 0.25rem;
+          padding-right: 0.25rem;
+          padding-bottom: 0.2rem;
+
+          .name {
+            display: inline-block;
+            width: calc(100% - 1rem);
+            line-height: 0.6rem;
+
+            .span_name {
+              float: left;
+              font-size: 0.32rem;
+              color: #000;
+            }
+
+          }
+
+          .in-time {
+            float: right;
+            font-size: .28rem;
+          }
+        }
+
+        .bottomLine::before {
+          content: "";
+          display: block;
+          border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+          position: absolute;
+          right: 0.25rem;
+          bottom: 0;
+          width: 94%;
+        }
+
+        .bottomLine:last-child::before {
+          border: none;
+        }
+      }
+    }
+  }
+
+  .in-code {
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    font-size: .68rem;
+    padding:  0 0 .2rem 0;
+    background: transparent;
+    border: none;
+    resize: none;
+    outline: none;
+    font-family: Helvetica, San Francisco;
+  }
+
+  .copy-code {
+    text-align: center;
+
+    button {
+      background-color: #1C85CF;
+      border: none;
+      padding: .1rem;
+      border-radius: .05rem;
+      color: #fff;
+      outline: none;
+      font-size: .24rem;
+
+    }
+  }
+
+  .in-title {
+    text-align: center;
+    font-size: .38rem;
+    font-weight: normal;
+    background-color: #F1F0F4;
+    padding: 0 0 10px 0;
+  }
+
+  .in-titImg {
+    display: inline-block;
+    width: .68rem;
+    height: .68rem;
+    margin-right: .2rem;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .walletNum {
+    padding: 0 0.25rem;
+    line-height: 1rem;
+    font-size: 0.32rem;
+    color: #B0B4B7;
+    border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+  }
+
+  .in-codetext {
+    text-align: center;
+    font-size: .28rem;
+    padding: .2rem 0;
+
+    i {
+      display: inline-block;
+      width: .4rem;
+      height: .4rem;
+      margin-left: .1rem;
+      vertical-align: top;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .popup {
+
+    .aboutCode {
+      width: 80%;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 55;
+      background-color: #fff;
+      border-radius: .1rem;
+      font-size: 0;
+
+      .address {
+        font-size: .3rem;
+        text-align: center;
+        padding: .2rem 0;
+        position: relative;
+
+        .icon-close {
+          position: absolute;
+          right: 10px;
+          top: 50%;
+          transform: translateY(-50%);
+          display: block;
+          width: 20px;
+          height: 20px;
+
+          img {
+            display: block;
+            width: 100%;
+            height: 100%;
+          }
+        }
+      }
+
+      .number {
+        font-size: .28rem;
+        overflow: hidden;
+        word-break: break-word;
+        padding: 0 .2rem .2rem .2rem;
+        text-align: center;
+      }
+    }
+
+    .mask {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.3);
+      z-index: 50;
+    }
+  }
+}

@@ -1,0 +1,710 @@
+$mainColor: #411E60;
+#classInfo {
+  .header {
+    background: transparent;
+
+    .backImg, .next {
+      img {
+        left: 0;
+      }
+    }
+  }
+
+  .headMask {
+    width: 100%;
+    height: 5.9rem;
+    background: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+  .titleFont {
+    font-weight: bold;
+    font-size: .34rem;
+  }
+
+
+  .header-icon > img {
+    display: block;
+    width: 0.5rem;
+    height: 0.5rem;
+  }
+
+  .new {
+    height: 100%;
+
+    .mainClassStar {
+      padding-bottom: .35rem;
+      border-bottom: 1px solid rgba(204, 204, 204, .4);
+    }
+  }
+
+  .classIcon {
+    right: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: .48rem;
+    height: .48rem;
+  }
+
+  .new1 {
+    padding: 0px 0px 0.5rem;
+  }
+
+
+  .classStar {
+    padding: 0 .25rem .25rem .25rem;
+  }
+
+  /*头部*/
+  .head {
+    width: 100%;
+    height: 5.9rem;
+    overflow: hidden;
+    background-size: cover !important;
+
+  }
+
+  .headCon {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 5.9rem;
+    overflow: hidden;
+    background-size: cover !important;
+    z-index: 2;
+
+  }
+
+
+  .headCon .view {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+    margin-top: 1.5rem;
+  }
+
+  .headCon .view img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .headCon .circle {
+    font-size: 0.4rem;
+    /*font-weight: bold;*/
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .headCon .id {
+    width: 2.5rem;
+    height: 0.6rem;
+    /*border: solid 1px red;*/
+    border-radius: 0.6rem;
+    background: $mainColor;
+    margin: 0.2rem auto;
+    text-align: center;
+    line-height: 0.6rem;
+    color: #ffffff;
+    font-size: 0.3rem;
+
+  }
+
+  .headCon .create {
+    text-align: center;
+    color: #FBFFFC;
+    font-size: 0.26rem;
+    letter-spacing: 0.02rem;
+  }
+
+  .star {
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    box-sizing: border-box;
+  }
+
+  .content3 {
+    width: 100%;
+    height: 0.8rem;
+    position: relative;
+
+  }
+
+  .content3 .line {
+    position: absolute;
+    left: 48%;
+    top: 0.3rem;
+    width: 1px;
+    height: 0.6rem;
+    background: rgba(204, 204, 204, 0.4);
+  }
+
+  .content3 ul {
+    width: 100%;
+  }
+
+  .content3 ul li {
+    width: 50%;
+    height: 1.35rem;
+    float: left;
+  }
+
+  .content3 ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+
+    div {
+      float: left;
+      width: 0.6rem;
+      height: 0.6rem;
+      border-radius: 50%;
+      margin: .32rem .3rem 0 .25rem;
+      overflow: hidden;
+      background-color: $mainColor;
+      position: relative;
+
+      img {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        width: 45%;
+        height: 45%;
+        transform: translate(-50%, -50%);
+      }
+
+    }
+
+    .capIcon {
+      img {
+        width: 70%;
+        height: 70%;
+      }
+    }
+  }
+
+
+  .content3 ul li a span {
+    float: left;
+    letter-spacing: 0.02rem;
+    color: #666666;
+    font-size: 0.3rem;
+    margin-top: 0.4rem;
+  }
+
+  .gray {
+    width: 100%;
+    height: 0.2rem;
+    background: #F8F8F8;
+  }
+
+  .classContent {
+    width: 100%;
+    height: 5.55rem;
+    /*background:#15B89B ;*/
+  }
+
+  .classContent .intro {
+    height: 0.8rem;
+    border: solid 1px transparent;
+    overflow: hidden;
+    position: relative;
+    line-height: 0.8rem;
+  }
+
+  .classContent .intro label {
+    font-size: 0.32rem;
+    color: #000;
+    position: absolute;
+    left: 0.06rem;
+
+  }
+
+  .classContent .intro .bgcolor {
+    width: 1.4rem;
+    height: 0.2rem;
+    background: #FFECEC;
+    margin-top: 0.45rem;
+  }
+
+  .classContent .study {
+    font-size: 0.26rem;
+    color: #666666;
+    line-height: 0.4rem;
+  }
+
+  .classContent .free {
+    height: 0.8rem;
+    /*border: solid 1px red;*/
+    overflow: hidden;
+    position: relative;
+    line-height: 0.8rem;
+  }
+
+  .classContent .free span {
+    font-size: 0.32rem;
+    color: #000;
+    position: absolute;
+    left: 0.06rem;
+
+  }
+
+  .classContent .free .bgcolor {
+    width: 1.4rem;
+    height: 0.2rem;
+    background: #FFECEC;
+    margin-top: 0.45rem;
+  }
+
+  .classContent .data {
+    width: 100%;
+    height: 1.1rem;
+    /*border: solid 1px red;*/
+    line-height: 1.1rem;
+  }
+
+  .classContent .data img {
+    float: left;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-top: 0.2rem;
+    margin-right: 0.2rem;
+  }
+
+  .classContent .data span {
+    float: left;
+    font-size: 0.32rem;
+    color: #000;
+    margin-right: 0.3rem;
+    font-weight: bold;
+  }
+
+  .classContent .data label {
+    float: left;
+    font-size: 0.32rem;
+    font-weight: bold;
+  }
+
+  .classContent .pay p {
+    font-size: 0.25rem;
+    color: #666666;
+    line-height: 0.5rem;
+  }
+
+  .theme {
+    width: 100%;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    font-size: 0.32rem;
+    color: #000000;
+    margin-top: 0.25rem;
+
+  }
+
+
+  .comment1 {
+    width: 100%;
+    border-bottom: solid 1px rgba(204, 204, 204, .4);
+  }
+
+  .comment1:last-child {
+    margin-bottom: .2rem;
+  }
+
+  .comment1 .img {
+    float: left;
+    width: 0.65rem;
+    height: 0.65rem;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+    margin-right: 0.25rem;
+  }
+
+  .comment1 .img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .comment1 .comment1Content {
+    float: left;
+    margin-top: 0.55rem;
+    margin-bottom: 0.5rem;
+    width: 84.5%;
+    //border: solid 1px red;
+  }
+
+  .comment1 .comment1Content .className {
+    color: #000000;
+    font-size: 0.32rem;
+    overflow: hidden;
+
+  }
+
+  .comment1 .comment1Content .className span {
+    float: left;
+  }
+
+  .comment1 .comment1Content .className > p {
+    float: left;
+    width: 0.7rem;
+    height: 0.4rem;
+    background: #411E60;
+    color: #ffffff;
+    font-size: 0.24rem;
+    border-radius: 0.1rem;
+    text-align: center;
+    line-height: 0.4rem;
+    margin-left: 0.2rem;
+  }
+
+  .comment1 .comment1Content .classTime {
+    color: #B0B4B7;
+    font-size: 0.24rem;
+    margin-top: 0.1rem;
+  }
+
+  .comment1 .comment1Content .classSpeak {
+    color: #212121;
+    font-size: 0.3rem;
+    margin-top: 0.2rem;
+    word-break: break-all;
+
+    img {
+      vertical-align: text-bottom;
+    }
+  }
+
+  .comment1 .commentContent .imgs {
+    width: 100%;
+    margin-top: 0.2rem;
+  }
+
+  .comment1 .commentContent .imgs div .my-gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .comment1 .commentContent .imgs div .my-gallery figure {
+    margin: 3px 3px 3px 0;
+    width: 32%;
+    height: 85px;
+    overflow: hidden;
+  }
+
+  .comment1 .commentContent .imgs > div img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1rem;
+  }
+
+
+  .joinClass {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.9rem;
+    background: $mainColor;
+    text-align: center;
+    line-height: 0.9rem;
+    font-size: 0.32rem;
+    color: #ffffff;
+    letter-spacing: 0.02rem;
+  }
+
+  .joinClass a {
+    float: left;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .mask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+  }
+
+  .maskContents {
+    width: 100%;
+    height: 5.45rem;
+    background: #ffffff;
+    border-top-right-radius: 0.2rem;
+    border-top-left-radius: 0.2rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 100000;
+
+    img {
+      display: block;
+      width: 1.9rem;
+      height: 1.45rem;
+      margin: auto;
+      margin-top: 0.9rem;
+
+    }
+
+    p {
+      text-align: center;
+      font-size: 0.3rem;
+      color: #B0B4B7;
+      line-height: 0.6rem;
+    }
+
+    .sure {
+      width: 90%;
+      height: 0.9rem;
+      line-height: 0.9rem;
+      text-align: center;
+      border-radius: 0.5rem;
+      background: #D82105;
+      font-size: 0.32rem;
+      color: #ffffff;
+      margin: 0.7rem auto;
+      box-shadow: 1px 1px 1px 1px pink;
+    }
+  }
+
+
+  .shareMask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 998;
+  }
+
+  .maskSubstance {
+    width: 100%;
+    height: 4.2rem;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 1000;
+    border-radius: .2rem .2rem 0 0;
+  }
+
+  .maskSubstance .substanceShare {
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    border-bottom: solid 1px #DEDFE1;
+    font-size: 0.3rem;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .maskSubstance .substanceShare i {
+    float: right;
+    margin-right: 0.3rem;
+    font-size: 0.32rem;
+    color: #DEDFE1;
+  }
+
+  .maskSubstance .share {
+    width: 4rem;
+    height: 100%;
+    /*border: solid 1px red;*/
+    margin: auto;
+  }
+
+  .maskSubstance .share .left, .right {
+    width: 50%;
+    height: 100%;
+    /*background: gray;*/
+    text-align: center;
+    font-size: 0.3rem;
+  }
+
+  .maskSubstance .share .left img, .maskSubstance .share .right img {
+    margin-top: 0.3rem;
+    display: block;
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-left: 0.55rem;
+    margin-bottom: 0.2rem;
+  }
+
+  /*.maskContent .share .right p, .maskContent .share .left p {
+    text-align: center;
+  }*/
+  .sureMask {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 51;
+
+  }
+
+  .sureMaskContent {
+    width: 100%;
+    height: 6.2rem;
+    background: #ffffff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    z-index: 52;
+    border-top-right-radius: 0.2rem;
+    border-top-left-radius: 0.2rem;
+  }
+
+  .sureMaskContent .contentShare {
+    width: 100%;
+    height: 1.25rem;
+    line-height: 1.25rem;
+    border-bottom: solid 1px #DEDFE1;
+    font-size: 0.3rem;
+    color: #000;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .sureMaskContent .contentShare i {
+    float: right;
+    margin-right: 0.3rem;
+    font-size: 0.32rem;
+    color: #DEDFE1;
+  }
+
+  .dataBox {
+    display: flex;
+    padding: 10px 10px 0 10px;
+
+    .data-rt {
+      float: left;
+    }
+  }
+
+  .sureMaskContent .data {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid transparent;
+
+    div {
+      line-height: 30px;
+    }
+
+    .data_img {
+      position: absolute;
+      right: -6px;
+      bottom: -5px;
+      width: 18px;
+      height: 18px;
+      margin-right: 0;
+      z-index: 2;
+    }
+  }
+
+  .sureMaskContent .data:nth-of-type(2) {
+    margin-left: 1px;
+  }
+
+  @media (max-device-width: 320px) and (min-device-width: 300px) { //兼容5s
+    .dataBox {
+      display: grid;
+      padding: 10px 10px 0 10px;
+    }
+    .sureMaskContent .data:nth-of-type(2) {
+      margin-left: 0;
+    }
+  }
+  @media (max-device-width: 420px) and (min-device-width: 400px) { //兼容6/7/8plus
+    .sureMaskContent .data:nth-of-type(2) {
+      margin-left: 0;
+    }
+  }
+
+  .sureMaskContent .data_active {
+    border-color: #411E60;
+    border-radius: 3px;
+    position: relative;
+
+  }
+
+  .sureMaskContent .data_active::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-width: .25rem;
+    border-style: solid;
+    border-color: #411E60 transparent transparent transparent;
+    border-left: .25rem;
+    transform: rotate(180deg);
+  }
+
+  .sureMaskContent .data img {
+    float: left;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin-right: 0.1rem;
+  }
+
+  .sureMaskContent .data span {
+    float: left;
+    font-size: 0.32rem;
+    color: #000;
+    margin-right: 0.1rem;
+    font-weight: bold;
+  }
+
+  .sureMaskContent .data label {
+    float: left;
+    font-size: 0.3rem;
+    font-weight: bold;
+  }
+
+  .sureMaskContent input[type=password] {
+    width: 100%;
+    height: 1.2rem;
+    background: #F4F4F4;
+    font-size: 0.3rem;
+    padding-left: 0.2rem;
+    outline: none;
+    border-radius: 0.1rem;
+  }
+
+  .sureMaskContent .pay {
+    width: 100%;
+    height: 0.9rem;
+    background: #F4F4F4;
+    font-size: 0.3rem;
+    color: #ffffff;
+    text-align: center;
+    line-height: 0.9rem;
+    border-radius: 0.6rem;
+    margin-top: 0.6rem;
+    transition: .5s;
+  }
+
+  .sureMaskContent .pay_active {
+    background-color: $mainColor;
+  }
+
+}

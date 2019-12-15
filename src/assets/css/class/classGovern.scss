@@ -1,0 +1,187 @@
+$mainColor: #411E60;
+#classGovern{
+  background-color: #F5F6F8;
+  .mint-switch-input:checked + .mint-switch-core{
+    border-color: $mainColor;
+    background-color:$mainColor;
+  }
+  .new{
+    height: 100%;
+
+  }
+  .govern{
+    padding-top: 1.3rem;
+  }
+  .govern .list1{
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff;
+    margin-top: 0.2rem;
+    //border: solid 1px red;
+
+  }
+  .govern .list1 li{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    line-height: 0.8rem;
+    overflow: hidden;
+  }
+  .govern .list1 li span{
+    float: left;
+    font-size: 0.3rem ;
+    color: #000000;
+  }
+  .govern .list1 li span p{
+    float: left;
+    color: #000000;
+    /*background: #F5F6F8 ;*/
+  }
+
+  .govern .list1 li a{
+    float: right;
+    font-size: 0.26rem ;
+    color: #878787;
+  }
+  .govern .list1 li a img{
+    display: block;
+    float: right;
+    width: 0.12rem;
+    height: 0.2rem;
+    margin-top: 0.25rem;
+  }
+  .govern .update{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 0.8rem;
+    font-size: 0.24rem;
+    line-height: 0.8rem;
+    background: #ffffff;
+
+  }
+  .govern .update span{
+    float: left;
+    font-size: 0.3rem ;
+    color: #000000;
+  }
+  .switch-container {
+    margin-top: 0.2rem;
+    float: right;
+
+    //border: solid 1px red;
+  }
+  .switch-container .mint-switch{
+    display: block;
+  }
+  .switch-container .mint-switch .mint-switch-core{
+    width: 42px;
+    height: 22px;
+  }
+  .switch-container .mint-switch .mint-switch-core::after{
+    width: 20px;
+    height: 20px;
+  }
+  .switch-container .mint-switch .mint-switch-core::before{
+    height: 0;
+  }
+
+
+
+  .govern .list2{
+    box-sizing: border-box;
+    width: 100%;
+    background: #ffffff;
+
+
+  }
+  .govern .list2 li{
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    margin-top: 0.3rem;
+    line-height: 0.8rem;
+    overflow: hidden;
+  }
+  .govern .list2 li span{
+    float: left;
+    font-size: 0.3rem ;
+    color: #000000 ;
+  }
+  .govern .list2 li span label{
+    float: left;
+  }
+  .govern .list2 li span i{
+    float: left;
+    font-size: 0.26rem ;
+    background: orangered ;
+    color: #ffffff;
+    width: 0.6rem;
+    height: 0.3rem;
+    line-height: 0.3rem;
+    text-align: center;
+    margin-top: 0.12rem;
+
+  }
+  .govern .list2 li a{
+    float: right;
+    font-size: 0.26rem ;
+    color: #878787;
+  }
+  .govern .list2 li a img{
+    display: block;
+    float: right;
+    width: 0.12rem;
+    height: 0.2rem;
+    margin-top: 0.3rem;
+  }
+  .govern p.search{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 0.2rem;
+    font-size: 0.26rem;
+    text-align: left;
+    line-height: 0.3rem;
+    color: darkgray;
+
+  }
+  .govern p.share{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 0.2rem;
+    font-size: 0.26rem;
+    text-align: left;
+    line-height: 0.3rem;
+    color: darkgray;
+    margin-bottom: 0.3rem;
+
+  }
+  .govern p.close{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    margin-top: 0.1rem;
+    width: 100%;
+    font-size: 0.26rem;
+    text-align: left;
+    line-height: 0.4rem;
+    color: darkgray;
+    height: 0.8rem;
+  }
+  .govern p.shareTag{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    margin-top: 0.2rem;
+    width: 100%;
+    height: 0.2rem;
+    font-size: 0.26rem;
+    text-align: left;
+    line-height: 0.3rem;
+    color: darkgray;
+    padding-bottom: 1rem;
+
+  }
+
+}

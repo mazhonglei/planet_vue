@@ -1,0 +1,120 @@
+#walletManage{
+  .wallet-manage-content{
+    width: 100%;
+    height: 100%;
+    background-color: #F1F0F4;
+  }
+
+  .wallet-manage-title{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #411E60;
+    position: relative;
+  }
+
+  .wallet-manage-title img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+  }
+
+  .wallet-manage-home{
+    width: 100%;
+    padding-top: 1.3rem;
+  }
+
+  .wallet-manage-use-detail{
+    height: 80px;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  .wallet-manage-use-photo{
+    width: 40px;
+    height: 40px;
+    float: left;
+  }
+
+  .wallet-manage-use-photo img{
+    display: block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .wallet-manage-use-info{
+    height: 40px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .wallet-manage-use-name{
+    height: 25px;
+    line-height: 18px;
+    font-size: 16px;
+  }
+
+  .wallet-manage-use-address{
+    height: 15px;
+    line-height: 12px;
+    font-size: 12px;
+  }
+
+  .wallet-manage-operation{
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .wallet-manage-operation-content{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+  }
+
+  .wallet-manage-operation-content>div:first-child{
+    width: 40px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+  }
+
+  .wallet-manage-operation-content>div:first-child img{
+    width: 36px;
+    height: 36px;
+    margin-top: 12px;
+  }
+
+  .wallet-manage-operation-content>div:last-child{
+    width: calc(100% - 60px);
+    height: 60px;
+    font-size: 14px;
+    border-bottom: 1px solid #ccc;
+    float: left;
+  }
+
+  .wallet-manage-operation-content:last-child>div:last-child{
+    border: 0;
+  }
+
+  .wallet-manage-operation-content>div:last-child>div:first-child{
+    line-height: 60px;
+    float: left;
+    padding-left: 10px;
+  }
+
+  .wallet-manage-operation-content>div:last-child>div:last-child{
+    float: right;
+    padding-right: 20px;
+  }
+
+  .wallet-manage-operation-content>div:last-child>div:last-child img{
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+  }
+}

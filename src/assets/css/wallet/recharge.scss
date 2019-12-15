@@ -1,0 +1,70 @@
+#recharge {
+  .recharge-content {
+    width: 100%;
+    height: 100%;
+    background-color: #F1F0F4;
+  }
+
+  .recharge-title {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: #411E60;
+    position: relative;
+  }
+
+  .recharge-title img {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 10px;
+    top: 13px;
+  }
+
+  .recharge-home {
+    width: 100%;
+    padding: 1.8rem .4rem;
+  }
+
+  .recharge-home-in {
+    width: 100%;
+    height: 280px;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 40px 10px 0;
+  }
+
+  .recharge-info {
+    text-align: center;
+    font-size: 16px;
+  }
+
+  .recharge-code {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .recharge-code img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .recharge-address {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    word-wrap: break-word;
+  }
+
+  .recharge-address img {
+    width: 12px;
+    height: 12px;
+    margin-left: 5px;
+    vertical-align: top;
+    margin-top: 4px;
+  }
+}

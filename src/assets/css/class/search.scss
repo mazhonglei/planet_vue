@@ -1,0 +1,297 @@
+$inputBgColor: #fff;
+#findClass {
+
+  .new {
+    height: 100%;
+  }
+
+  .header .immersion {
+    line-height: unset;
+  }
+
+  .padding-box {
+    padding-top: 1.3rem;
+  }
+
+  .searchList {
+    position: absolute;
+    left: 0.4rem;
+    top: 52%;
+    transform: translateY(-50%);
+    padding: .2rem 0;
+  }
+
+  .header {
+    overflow: unset;
+  }
+
+  .header .search-icon {
+    vertical-align: 3px;
+    margin-left: 5px;
+    width: 0.1rem;
+    height: 0.08rem;
+  }
+
+  .header form {
+    width: 100%;
+    padding: 0 1rem 0 .2rem;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    line-height: 1rem;
+
+    span, img {
+      display: inline-block;
+    }
+  }
+
+  .header form {
+
+    font-size: 0.3rem;
+    color: #696969;
+  }
+
+
+  .header form input {
+    outline: 0;
+    width: 100%;
+    padding: .13rem .15rem .13rem 1.2rem;
+    background: $inputBgColor;
+    border-radius: 0.3rem;
+
+  }
+
+  input::-webkit-input-placeholder {
+    line-height: .4rem;
+    font-size: 0.3rem;
+  }
+
+  .header a {
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: 0.3rem;
+    padding: 0 .2rem;
+  }
+
+  .history {
+    overflow: hidden;
+    line-height: 0.8rem;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    display: flex;
+
+    .f_left {
+      width: 100%;
+    }
+  }
+
+  .history p img {
+    float: left;
+    width: 0.32rem;
+    height: 0.32rem;
+    margin: .35rem .2rem 0 .3rem;
+  }
+
+  .history p span {
+    float: left;
+    font-size: 0.3rem;
+    color: #B7B7B7;
+    margin-top: 0.1rem;
+    width: calc(100% - 15%);
+  }
+
+  .history div img {
+    float: right;
+    display: block;
+    width: 0.6rem;
+    height: 0.6rem;
+    margin: .2rem .3rem 0 0;
+  }
+
+  .search-list {
+    position: absolute;
+    left: -10%;
+    top: 1.3rem;
+    background-color: #fff;
+    color: #000;
+    box-shadow: 2px 5px 15px rgba(204, 204, 204, 0.5);
+    border-radius: 3px;
+    width: 2rem;
+
+    li {
+      line-height: .5rem;
+      padding: .2rem;
+      font-size: .28rem;
+    }
+  }
+
+
+  .searchActive {
+    color: #D94237;
+  }
+
+  .searchContent {
+    padding-top: 1.3rem;
+
+    .search-line {
+      border-bottom: 1px solid rgba(204, 204, 204, .3);
+    }
+
+    .search-box {
+      padding: .2rem .3rem .15rem .3rem;
+      border-top: 1px solid rgba(204, 204, 204, .3);
+    }
+
+    .searchTitle {
+      font-size: .28rem;
+      color: #ADADAD;
+      line-height: .6rem;
+    }
+
+    .searchItem {
+      li {
+        font-size: .28rem;
+        padding: .16rem 0;
+
+        .searchCont {
+          width: 100%;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          -webkit-line-clamp: 2;
+          overflow: hidden;
+        }
+
+        .searchuserTime {
+          font-size: .24rem;
+          color: #ABABAB;
+          margin-top: 2px;
+          display: flex;
+          justify-content: space-between;
+
+          span {
+            margin: 0 5px;
+          }
+
+          em {
+            margin-left: .1rem;
+            font-style: unset;
+          }
+        }
+
+      }
+
+      .userImg {
+        width: .72rem;
+        height: .72rem;
+        border-radius: 50%;
+        overflow: hidden;
+
+        img {
+          object-fit: cover;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .userBg {
+        background: #56B699;
+        position: relative;
+
+        img {
+          position: absolute;
+          left: 50%;
+          top: 50%;
+          transform: translate(-50%, -50%);
+          width: 50%;
+          height: 50%;
+        }
+      }
+
+      .searchMore {
+        span {
+          padding: 0 .16rem;
+          color: #56B699;
+        }
+      }
+
+
+    }
+
+    .pdnone {
+      li {
+        padding: 0;
+      }
+    }
+
+    .userName {
+      width: calc(100% - .8rem);
+      padding: .2rem;
+
+      .userBox {
+        width: 80%;
+        display: inline-block;
+      }
+
+      .vatop {
+        float: right;
+        position: absolute;
+        right: .1rem;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      div:nth-of-type(1) {
+        line-height: .44rem;
+      }
+
+      .userId {
+        font-size: .24rem;
+        color: #696969;
+
+        span:nth-of-type(1) {
+          padding: 0 .16rem 0 .1rem;
+        }
+      }
+    }
+
+
+    .userImg, .userName {
+      display: inline-block;
+      vertical-align: middle;
+      position: relative;
+    }
+  }
+
+  .arrowIcon {
+    display: inline-block;
+    background: url("../../assets/img/ic_common_entrance_arrow.png") center center no-repeat;
+    width: .4rem;
+    height: .4rem;
+    background-size: 28%;
+    vertical-align: -.1rem;
+  }
+
+  .viewMore {
+    font-size: .28rem;
+    color: #5D7792;
+    padding: .15rem 0 0 0;
+
+    span {
+      margin-left: .05rem;
+    }
+
+    .search-icon {
+      display: inline-block;
+      background: url("../../assets/img/searchicon2.png") center center no-repeat;
+      width: .4rem;
+      height: .4rem;
+      background-size: 75%;
+      vertical-align: -.1rem;
+    }
+
+    .arrowIcon {
+      float: right;
+    }
+  }
+}

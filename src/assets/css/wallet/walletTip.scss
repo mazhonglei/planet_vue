@@ -1,0 +1,62 @@
+#tip{
+  .content-tip{
+    width:100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  .content-later{
+    height: 1.3rem;
+    line-height: 1.65rem;
+    font-size: 0.3rem;
+    text-align: right;
+    color:#411E60;
+    font-weight: bold;
+    margin-right: 0.4rem;
+  }
+  .content-backup{
+    height: 1.8rem;
+    text-align: center;
+    margin-top: 0.2rem;
+  }
+  .backup-iconfont{
+    height: 1rem;
+    line-height: 1rem;
+  }
+  .backup-iconfont img{
+    width: 0.8rem;
+  }
+  .backup-title{
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.35rem;
+  }
+  .content-hint{
+    width: 90%;
+    line-height: 0.5rem;
+    margin: 0.65rem auto;
+    font-size: 0.3rem;
+  }
+  .content-danger{
+    font-size: 0.25rem;
+    margin-left: 0.4rem;
+    margin-bottom: 0.4rem;
+    position: absolute;
+    bottom: 1rem;
+    color: #828D96;
+  }
+  .content-danger li{
+    list-style-type: circle;
+  }
+  .content-help{
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    line-height: 1rem;
+    font-size: 0.3rem;
+    background-color: #411E60;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+  }
+}

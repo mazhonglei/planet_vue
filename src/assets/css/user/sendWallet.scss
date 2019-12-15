@@ -1,0 +1,167 @@
+#sendWallet {
+  background: #F1F0F4;
+
+  .sendWallet {
+    padding-top: 1.3rem;
+  }
+
+  .sendBox {
+    padding: 0 .25rem;
+  }
+
+  .sendMoney, .walletNum {
+    input {
+      width: 87%;
+      text-align: right;
+      padding: .3rem .1rem .3rem 4rem;
+      border-radius: .1rem 0 0 .1rem;
+    }
+  }
+
+  .sendMoney, .walletNum {
+    background-color: #fff;
+    width: 100%;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+    position: relative;
+    /* border: solid 1px red;*/
+    line-height: 0.6rem;
+    font-size: 0;
+    border-radius: 0.1rem;
+
+    .moneyCount {
+      font-size: 0.32rem;
+      color: #000;
+      position: absolute;
+      left: 0.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+
+    }
+
+    .allMoney {
+      position: absolute;
+      left: 0.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+      line-height: .94rem;
+
+      .pin {
+        width: .36rem;
+        height: .36rem;
+        text-align: center;
+        line-height: .36rem;
+        font-size: 0.24rem;
+        color: #ffffff;
+        background: #b57c12;
+        float: left;
+        margin-top: .28rem;
+        margin-right: 0.1rem;
+        border-radius: .05rem;
+      }
+
+      .money {
+        font-size: 0.32rem;
+        color: #000;
+        float: left;
+      }
+    }
+
+    .everyMoney {
+      position: absolute;
+      left: 0.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+      line-height: .94rem;
+
+      .money {
+        font-size: 0.32rem;
+        color: #000;
+        float: left;
+      }
+    }
+
+    .yuan {
+      font-size: 0.32rem;
+      color: #000;
+      position: absolute;
+      right: 0.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+
+  }
+
+  .send_pin {
+    width: 100%;
+    font-size: 0.28rem;
+    color: #6e6e6e;
+    padding: 0.1rem 0.5rem 0.3rem 0.5rem;
+
+    span {
+      color: #411E60;
+    }
+  }
+
+  .send_common {
+    width: 100%;
+    font-size: 0.28rem;
+    color: #6e6e6e;
+    padding: 0.1rem 0.5rem 0.3rem 0.5rem;
+
+    span {
+      color: #411E60;
+    }
+  }
+
+
+  .text {
+    width: 100%;
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+
+    textarea {
+      width: 100%;
+      resize: none;
+      padding: 0.25rem;
+      border: none;
+      outline: none;
+      border-radius: .1rem;
+    }
+
+    textarea::-webkit-input-placeholder {
+      font-size: 0.28rem;
+      color: #6e6e6e;
+    }
+  }
+
+  .showMoney {
+    width: 100%;
+    font-size: 0.56rem;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    /*  border: solid 1px red;*/
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+
+    img {
+      display: inline-block;
+      width: 0.5rem;
+      vertical-align: center;
+    }
+  }
+
+  .walletMoney {
+    width: 2rem;
+    line-height: 0.6rem;
+    background: #411E60;
+    text-align: center;
+    margin: 0.5rem auto;
+    font-size: 0.28rem;
+    border-radius: 0.1rem;
+    color: #ffffff;
+    letter-spacing: 0.01rem;
+
+  }
+}

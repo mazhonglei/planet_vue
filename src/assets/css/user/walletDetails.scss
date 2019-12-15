@@ -1,0 +1,154 @@
+#walletDetails {
+  background: #ffffff;
+  .walletDetails{
+    height: 100%;
+  }
+  .next {
+    img {
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
+
+  .walletDetailsCon {
+    padding-top: 1.6rem;
+    padding-bottom: 0.6rem;
+    width: 100%;
+    background-color: #F1F0F4;
+
+    .myHeadImg {
+      width: 1.6rem;
+      height: 1.6rem;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: auto;
+
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+
+    .mySend {
+      width: 100%;
+      text-align: center;
+      font-size: 0.32rem;
+      color: #000;
+      margin-top: 0.4rem;
+    }
+
+    .sendWallet {
+      padding-top: 0.2rem;
+      width: 100%;
+      font-size: 0.28rem;
+      color: #6e6e6e;
+      text-align: center;
+
+    }
+  }
+
+  .middle {
+    width: 100%;
+    height: 0.3rem;
+    background: #F1F0F4;
+  }
+
+  .peopleDetails {
+    width: 100%;
+
+    .walletNum {
+      padding-left: 0.25rem;
+      padding-right: 0.25rem;
+      line-height: 1rem;
+      font-size: 0.32rem;
+      color: #B0B4B7;
+      border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+    }
+
+    .walletPerson {
+      width: 100%;
+
+      .linePs {
+        position: relative;
+        padding-left: .25rem;
+      }
+
+      .left_headImg {
+        float: left;
+        width: 0.68rem;
+        height: 0.68rem;
+        border-radius: 50%;
+        margin-top: 0.1rem;
+        overflow: hidden;
+
+        img {
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+
+      .right_content {
+        width: 96%;
+        float: left;
+        padding: 0.2rem;
+        position: relative;
+
+        .peopleDetail {
+          font-size: 0;
+          width: 100%;
+          line-height: 0.5rem;
+
+          .leftName {
+            float: left;
+            font-size: 0.32rem;
+            color: #000;
+          }
+
+          .rightMoney {
+            float: right;
+            font-size: 0.32rem;
+            color: #000;
+          }
+        }
+
+        .peopleDetail2 {
+          font-size: 0;
+          width: 100%;
+          line-height: 0.5rem;
+
+          .leftTime {
+            float: left;
+            font-size: 0.28rem;
+            color: #B0B4B7;
+          }
+
+          img {
+            float: right;
+            width: 0.4rem;
+            height: 0.4rem;
+            margin-top: 0.05rem;
+            margin-right: 0.1rem;
+          }
+
+          .rightMost {
+            float: right;
+            font-size: 0.28rem;
+            color: orange;
+          }
+        }
+      }
+
+      .bottomLine::before {
+        content: "";
+        display: block;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.4);
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+      }
+    }
+  }
+}

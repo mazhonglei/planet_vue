@@ -1,0 +1,9 @@
+@function count($n){
+	@return ($n/50);
+}
+@mixin position($ver1,$ver2,$data1,$data2,$type1:absolute){
+	position:$type1;
+	#{$ver1}:$data1;
+	#{$ver2}:$data2;
+}
+

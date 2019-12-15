@@ -1,0 +1,126 @@
+$mainColor: #411E60;
+$backgroundColor: #F1F0F4;
+#sendPost {
+
+  .imgUploader {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    border-left: none;
+    border-right: none;
+  }
+
+  .new {
+    height: 100%;
+  }
+
+  .header a {
+    display: block;
+    font-size: 0.3rem;
+    color: #ffffff;
+    position: absolute;
+    left: 0.25rem;
+    letter-spacing: 0.02rem;
+    /*margin-left: 0.3rem;*/
+  }
+
+  .header span.send {
+    position: absolute;
+    right: 0;
+    font-size: 0.3rem;
+    letter-spacing: 0.02rem;
+    padding: 0 .2rem;
+  }
+
+  .speak {
+    box-sizing: border-box;
+    padding-top: 1.3rem;
+    height: calc(100% - 24%);
+  }
+
+  .search_input::-webkit-input-placeholder {
+    color: #b6b6b6;
+  }
+
+  .search_input {
+    height: 100%;
+
+    textarea {
+      outline: none;
+      padding-left: 0.2rem;
+      padding-right: 0.2rem;
+      padding-top: 0.2rem;
+      font-size: 0.32rem;
+      border: none;
+      resize: unset;
+      width: 100%;
+      height: 100%;
+      background-color: $backgroundColor;
+    }
+  }
+
+  .sendImg {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .share {
+    width: 100%;
+    display: flex;
+  }
+
+  .share .left {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: .2rem 0 .2rem .32rem;
+    background-color: $mainColor;
+    width: .72rem;
+    height: .72rem;
+    position: relative;
+  }
+
+  .share img {
+    display: block;
+    width: .48rem;
+    height: .48rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .addImg {
+    width: 100%;
+    font-size: 0;
+    position: relative;
+  }
+
+  .addImg > ul {
+    padding: 0 .2rem;
+    white-space: nowrap;
+    overflow-x: scroll;
+  }
+
+  .addImg > ul > li {
+    display: inline-block;
+    padding: .2rem .06rem .2rem .06rem;
+    width: 1.5rem;
+    height: 1.8rem;
+  }
+
+  .addImg > ul > li > img {
+    width: 100%;
+    height: 100%;
+  }
+  .addBtn{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: $mainColor;
+    padding: 6px;
+    font-size: .24rem;
+    color: #fff;
+    border-radius: 5px;
+  }
+}
