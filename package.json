@@ -51,7 +51,7 @@
     "css-loading": "^1.4.0",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
-    "swiper": "^4.4.6",
+    "swiper": "^6.5.1",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
